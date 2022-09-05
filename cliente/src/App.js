@@ -26,8 +26,9 @@ function App() {
     <Carousel>
       <Carousel.Item interval={1000}>
         <img
-          className="d-block w-100"
-          src="/..Imagens/churros3.jpeg/800x400?text=First slide&bg=373940"
+          className="d-block w-100" 
+          width= {500}
+          src="https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -45,12 +46,12 @@ function App() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="/..Imagens/churros4.jpeg/800x400?text=Second slide&bg=282c34"
+          src="https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
           <img
-              src="/assets/logo.png"
+              src="/assets/logo2.png"
               width="120"
               height="120"
               className="d-inline-block align-top"
@@ -63,7 +64,7 @@ function App() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/..Imagens/churros5.jpeg/800x400?text=Third slide&bg=20232a"
+          src="https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
