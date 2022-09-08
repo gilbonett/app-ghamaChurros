@@ -1,0 +1,109 @@
+
+
+body{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #2b2b2b;
+
+}
+
+.Carousel{
+display: flex;
+flex-wrap: nowrap;
+}
+
+.carousel-item,
+.carousel-indicators{
+  display: 0;
+  position: absolute;
+  left: 50px;
+}
+  
+.visually-hidden {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.Carousel.Caption{
+position: relative;
+max-width: 100%;
+top: 0;
+z-index: 1;
+}
+
+.d-inline-block {
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  left: 500px;
+}
+
+.Tittle {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  display: block;
+  z-index: 1;
+  color: rgb(255, 0, 115);
+  float: left;
+  text-align: center;
+  left: 250px;
+  top: 300px;
+  justify-content: space-between;
+  -webkit-text-stroke: 1px #000000;
+}
+
+
+.Tittle h3 {
+  padding-bottom: 10px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.Tittle p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.d-block {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1200px;
+  height: 480;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+font-size: 1rem;
+box-shadow: 0 0 15px rgba(255,245,200, .5);
+border-radius:50%;
+}
+
+h3{
+animation: animate 1s linear;
+}
+
+@keyframes animate{
+ 0%{
+  transform: translatex(-100%)
+ }
+ 100%{
+  transform: translateX(0%)
+}
+}
+p{
+ animation: animatep 1s linear;
+}
+
+@keyframes animatep{
+0%{
+ transform: translatex(100%)
+}
+100%{
+ transform: translateX(0%)
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
