@@ -10,12 +10,11 @@ function Comentarios () {
 const [comentario, setComentario] = useState([])
 
 
-  const cargarComentarios = async () => {
-    axios.get('http://localhost:3001/comentarios/')
-    .then ((resp) =>{
-      setComentario(resp.data)
-    }
-    )
+    function cargarComentarios() {
+    fetch ('http://localhost:3000/comentario/')
+    .then ((res) => res.json () )
+    .then (data => setComentario (data) );
+    };
 
      useEffect(() => {
       cargarComentarios();
@@ -37,6 +36,7 @@ return (
             <div className='media-body'>
               {comentario.map((comentario,id)=>
               <>
+              <p key={id}></p>
               <p className='nome'>{comentario.nome}</p>
               <p className='comentario'>{comentario.comentario}</p>
               </>
@@ -54,7 +54,7 @@ return (
    </div>  
 
   )
-}}
+}
 
 export {Comentarios};
 
