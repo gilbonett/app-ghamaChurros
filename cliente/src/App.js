@@ -1,6 +1,6 @@
 import './App.css';
-
 import IndividualIntervalsHeroImage from './components/HeroImage/HeroImage';
+import {Comentarios} from './components/CaixaComentarios/CaixaComentarios'
 import {Navbar, Container, Nav,} from "react-bootstrap";
 
 
@@ -27,6 +27,10 @@ function App() {
      
       <>
           <IndividualIntervalsHeroImage/>
+
+          <Comentarios/> 
+
+
       </>
 
       </div>
