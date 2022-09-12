@@ -16,3 +16,33 @@ const Navbar = () => {
       <span className="nav-logo">GhamaChurros</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/Cardapio">Cardapio</a>
+        <a href="/Contato">Contato</a>
+        <a href="/Comentarios">Comentarios</a>
+       </div>
+     
+       <div className="App">
+      <div className="containerInput">
+        <input
+          className="form-control inputBuscar"
+          value={busqueda}
+          placeholder="Busqueda"
+          onChange={handleChange}
+        />
+        <button className="btn btn-succes">
+          <FontAwesomeIcon icon={faSearch}/>
+        </button>
+      </div>
+      </div>
+        
+      <div className={`nav-toggle ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="bar"></div>
+      </div>
+    </div>
+
+);
+
+};
+
+export default Navbar;

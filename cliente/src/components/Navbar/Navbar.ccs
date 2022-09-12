@@ -12,3 +12,36 @@
     margin: 15px;
     color: #132dc4;
   }
+
+   .Navbar > .nav-items > a {
+    color: #2212b9;
+    font-size: 20px;
+    text-decoration:solid;
+    margin: 15px;
+    position: relative;
+    
+  }
+  
+  .Navbar > .nav-items > a:hover {
+    opacity: 1;
+  }
+  
+  .Navbar > .nav-items > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #c41919;
+    transition: all 0.45s;
+  }
+  
+  .Navbar > .nav-items > a:hover::before {
+    width: 100%;
+  }
+  
+  .Navbar > .nav-toggle {
+    display: none;
+  }
+  
