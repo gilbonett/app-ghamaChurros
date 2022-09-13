@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return(
         <div className="footer">
-          {/* Aqui van los Componentes CaixaComentario e RedesSocias */}
+          {/* Aqui van los Componentes CaixaComentario e RedesSocias */}     
         </div>
     )
 }
