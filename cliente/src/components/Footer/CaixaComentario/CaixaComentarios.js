@@ -11,7 +11,7 @@ const [comentario, setComentario] = useState([])
 
 
     function cargarComentarios() {
-    fetch ('http://localhost:3000/comentario/')
+    fetch ('http://localhost:3001/comentario/')
     .then ((res) => res.json () )
     .then (data => setComentario (data) );
     };
