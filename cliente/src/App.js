@@ -1,42 +1,28 @@
 import './App.css';
 import IndividualIntervalsHeroImage from './components/HeroImage/HeroImage';
 import {Comentarios} from './components/CaixaComentarios/CaixaComentarios'
-<<<<<<< HEAD
-import {Navbar,Carousel, Container, Nav,} from "react-bootstrap";
-
-function App() {
-  return (
-    <div className="App">
-  
-      <>
-          <IndividualIntervalsHeroImage/>
-
-          <Comentarios/> 
-
-=======
-import {Navbar, Carousel, Nav,} from "react-bootstrap";
 import Navbar from "./components/Navbar/Navbar";
-
+import Menu from './components/Menu/Menu';
+import items1 from './Items1';
+import items2 from './Items2';
+import items3 from './Items3';
 
 
 function App() {
   return (
     <div className="App">
-     {/* Aqui vão os componentes que for criando */}
        <>
           <Navbar/>
           <IndividualIntervalsHeroImage/>
+          <div>
+          <Menu name="Churros Simples" desc="Churros saborosos feitos com massas fresquinhas" menu={items1} />
+          <Menu name="Bebidas"  menu={items2} />
+          <Menu name="Combo"  menu={items3} />
+          </div>
           <Comentarios/>
->>>>>>> 61a7511373c4b3c675aed669b42d35336701490e
       </>
     </div>
 
       );
-
-<<<<<<< HEAD
-      }
-
-
-=======
->>>>>>> 61a7511373c4b3c675aed669b42d35336701490e
-export default App;
+  }
+export default App; 
