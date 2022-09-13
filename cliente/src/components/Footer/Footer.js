@@ -1,10 +1,11 @@
 import React from "react";
 import './Footer.css';
+import {Comentarios} from "./CaixaComentario/CaixaComentarios"
 
 function Footer() {
     return(
         <div className="footer">
-          {/* Aqui van los Componentes CaixaComentario e RedesSocias */}     
+        <Comentarios/>
         </div>
     )
 }

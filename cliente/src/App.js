@@ -1,6 +1,5 @@
 import './App.css';
 import IndividualIntervalsHeroImage from './components/HeroImage/HeroImage';
-import {Comentarios} from './components/CaixaComentario/CaixaComentarios'
 import Navbar from "./components/Navbar/Navbar";
 import Menu from './components/Menu/Menu';
 import items1 from './Items1';
@@ -20,7 +19,6 @@ function App() {
           <Menu name="Bebidas"  menu={items2} />
           <Menu name="Combo"  menu={items3} />
           </div>
-          <Comentarios/>
           <Footer/>
       </>
     </div>
