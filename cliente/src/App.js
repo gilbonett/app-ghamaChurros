@@ -1,7 +1,6 @@
 import './App.css';
 import IndividualIntervalsHeroImage from './components/HeroImage/HeroImage';
 import {Comentarios} from './components/CaixaComentarios/CaixaComentarios'
-import {Navbar, Carousel, Nav,} from "react-bootstrap";
 import Navbar from "./components/Navbar/Navbar";
 
 
@@ -18,5 +17,5 @@ function App() {
     </div>
 
       );
-
+  }
 export default App;
