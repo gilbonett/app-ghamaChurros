@@ -1,0 +1,42 @@
+body {
+  background: #f2f2f2;
+  font-family: sans-serif;
+}
+
+.comentarios {
+  margin: 20px 0;
+}
+
+.form-comentarios textarea {
+  width: 100%;
+  height: 84px;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 85px;
+  max-height: 300px;
+  padding: 10px;
+  font-family: sans-serif;
+  line-height: 30px;
+  border: 1px solid #4b85d1;
+  margin-bottom: 15px;
+
+}
+
+.media{
+  border-top: 1px solid #bfbfbf;
+  padding-top: 20px;
+}
+
+.media img{
+  margin-right: 20px;
+}
+
+.media .comentario{
+  margin-top: 10px;
+}
+
+/* .media .buttons a{
+  color: #acacac;
+  font-size: 14px;
+  margin-left: 20px;
+} */
