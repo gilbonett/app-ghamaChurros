@@ -22,24 +22,17 @@ const [comentario, setComentario] = useState([])
 
   
 return (
-<div className='container-fluid formulario'>
-   <div className= 'row justify-content-end'>
-     <div className='col-5'>
-         <form action='' className='form d-flex justify-content-end flex-wrap'>
-            <textarea
-            placeholder="Nome"
-            type = "tex"
-            value = {comentario.nome}
-            className = "form-control"/>
-           
+<div className='container'>
+   {/* <div className= 'row comentarios justify-content-center'>
+     <div className='col-6'>
+         <form action='' className='form-comentarios d-flex justify-content-end flex-wrap'>
             <textarea 
-            placeholder="Comentario"
+            placeholder='Comentario'
             type= 'text' 
             value= {comentario.comentario} 
             className="form-control"/>
-            
             <Button as="input" type="button" value="Comentar" />{''}
-         </form> 
+         </form> */}
             <div className='media-body'>
               {comentario.map((comentario,id)=>
               <>
@@ -49,13 +42,14 @@ return (
               </>
               )}
               
-              <div className='button text-right'>
+              {/* <div className='button text-right'>
+              <Button variant="outline-secondary">Responder</Button>{' '}
               <Button variant="outline-secondary">Editar</Button>{' '} 
               <Button variant="outline-secondary">Borrar</Button>{' '}  
       
               </div>   
             </div>
-         </div> 
+         </div> */}
      </div>
    </div>  
 
@@ -63,4 +57,3 @@ return (
 }
 
 export {Comentarios};
-
