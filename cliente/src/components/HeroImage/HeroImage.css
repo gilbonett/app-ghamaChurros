@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+.Contenedor{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Tittle {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(239, 16, 146);
+  text-align: center;
+  -webkit-text-stroke: 0.1vw #000000;
+}
+
+.Tittle h3 {
+  padding-bottom: 2px;
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.Tittle p {
+  font-size: 2vw;
+  -webkit-text-stroke: 0.1vw #000000;
+}
+
+h3{
+  animation: animate 1s linear;
+  }
+  
+  @keyframes animate{
+   0%{
+    transform: translatex(-100%)
+   }
+   100%{
+    transform: translateX(0%)
+  }
+  }
+  p{
+   animation: animatep 1s linear;
+  }
+  
+  @keyframes animatep{
+  0%{
+   transform: translatex(100%)
+  }
+  100%{
+   transform: translateX(0%)
+  }
+  
+  }
+
+  @media screen and (min-width: 320px) {
+    .w-100 {
+      height: 350px;
+    }
+
+    .carousel-caption img{
+      width: 120px;
+      height: 120px;
+    }
+  } 
+
+
+
