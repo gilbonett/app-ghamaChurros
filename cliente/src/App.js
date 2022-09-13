@@ -1,6 +1,6 @@
 import './App.css';
 import IndividualIntervalsHeroImage from './components/HeroImage/HeroImage';
-import {Comentarios} from './components/Footer/CaixaComentario/CaixaComentarios'
+import {Comentarios} from './components/CaixaComentario/CaixaComentarios'
 import Navbar from "./components/Navbar/Navbar";
 import Menu from './components/Menu/Menu';
 import items1 from './Items1';
@@ -27,4 +27,4 @@ function App() {
 
       );
   }
-export default App;
+export default App; 
