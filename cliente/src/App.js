@@ -6,6 +6,7 @@ import Menu from './components/Menu/Menu';
 import items1 from './Items1';
 import items2 from './Items2';
 import items3 from './Items3';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Menu name="Combo"  menu={items3} />
           </div>
           <Comentarios/>
+          <Footer/>
       </>
     </div>
 
