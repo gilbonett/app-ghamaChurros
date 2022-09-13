@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    place-items: center;
+}
+
+.item img{
+width: 100%;
+height: 300px;
+object-fit: cover;
+cursor: pointer;
+}
+
+.item img:hover{
+    transform: scale(1.04);
+}
+
+.combo {
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    place-items: center;
+    text-align: center;
+}
+
+.combo_icone {
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    place-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.item h4{
+     padding: 5px;
+     text-align: center;
+}
+
+ p {
+    text-align: center;
+ }
+
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor:  4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transform: 0.2s all;
+}
+
+.item button:hover{
+    transform: scale(1.08);
+}
+
+@media screen and (max-width: 1000px){
+    .items{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+}
+
+    @media screen and (max-width: 768px){
+        .items {
+            grid-template-columns: repeat(1,1fr);
+    
+        }
+}
