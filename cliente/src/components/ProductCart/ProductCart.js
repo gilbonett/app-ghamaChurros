@@ -1,0 +1,30 @@
+import React, { useContext } from "react";
+import CartContext from "../../context/cartContext";
+import "../ProductCart/ProductCart.css";
+
+
+export const ItemCart = ({ product }) => {
+  /* Traemos del context las funciones para agregar y sacar productos del carrito */
+  const { DeleteItemToCart, AddItemToCart } = useContext(CartContext);
+
+  /* Desestructuramos product */
+  const {id} = product;
+  return (
+    <div className='cartItem'>
+      <img src={product.img} alt={product.title} />
+      <div className='dataContainer'>
+        <div className='left'>
+          <p>{product.title}</p>
+          <div className='buttons'>
+            <button onClick={() => AddItemToCart(product)}>AGREGAR</button>
+            <button onClick={() => DeleteItemToCart(id)}>SACAR</button>
+          </div>
+        </div>
+        <div className='right'>
+          <div>{product.amount}</div>
+          <p>Total: ${product.amount * product.price}</p>
+        </div>
+      </div>
+    </div>
+  );
+};

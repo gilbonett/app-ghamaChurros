@@ -1,0 +1,246 @@
+
+  .section {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+
+  .features-boxed {
+    color: #f1faee;
+    background-color: var(--bs-gray-dark);
+}
+
+.features-boxed p {
+    color: #7d8285;
+}
+
+.features-boxed h2 {
+    font-weight: normal;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+    font-family: 'Lilita One', cursive;
+    font-size: 3em;
+}
+
+@media (max-width: 767px) {
+    .features-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 2em;
+    }
+}
+
+.features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.features-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.features-boxed .features {
+    padding: 50px 0;
+}
+
+.features-boxed .item {
+    text-align: center;
+}
+
+.features-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.features-boxed .item .pizza-img {
+    /*font-size: 60px;*/
+    /*color: #1485ee;*/
+    margin-top: 20px;
+    margin-bottom: 35px;
+    height: 200px;
+}
+
+.features-boxed .item .name {
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: var(--bs-gray-dark);
+}
+
+.features-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1em;
+}
+
+.fas.fa-shopping-basket {
+    font-size: 1.5em;
+}
+
+span {
+    margin-left: 10px;
+}
+
+/* TODO */
+
+  @media screen and (min-width: 992px) {
+    .section {
+      width: 95vw;
+    }
+  }
+  .menu {
+    padding: 5rem 0;
+  }
+  .title {
+    text-align: center;
+  }
+  
+  .title-descricao{
+    height: 150px;
+
+  }
+
+  .btn-container {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .filter-btn {
+    background: transparent;
+    border-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    color:  hsl(360, 71%, 66%);
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border-radius: 0.25rem;
+  }
+  
+  .active {
+    border-bottom: 2px solid;
+  }
+  /* TODO obs. fazer que se vejam duas colunas de cards */
+  .productsMenu {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+    background-color: #343A40;
+  }
+  
+  .products {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+    padding: 30px;
+    background-color: #fff;
+  }
+
+  .imgCard{
+    max-height: 100%;
+    max-width: 100% ;
+    object-fit: contain;
+  }
+
+  .imgCard img {
+    width: 245px;
+    height: 200px;
+   
+  }
+  
+  .logo {
+    object-fit: cover;
+    height: auto;
+    width: 200px;
+    border-radius: 0.25rem;  
+  }
+  
+  .product-info header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.5px dotted hsl(210, 22%, 49%);
+  }
+  .product-info h4 {
+    margin-bottom: 0.5rem;
+  }
+
+  .price {
+    color: #c51d93;
+  }
+  .product-text {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .btn-price{
+    display: flex;
+    flex-wrap: wrap
+  }
+/* 
+  button {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 29%;
+  }
+
+  button:hover {
+    background-color: #cecece;
+  }
+ */
+  
+  @media screen and (min-width: 768px) {
+    .products {
+      grid-template-columns: 225px 1fr;
+      gap: 0 1.25rem;
+      max-width: 40rem;
+      background-color: #fff;
+      padding: 30px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    .productsMenu{
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 0fr);
+     grid-row-gap: 20px;
+     grid-column-gap: 75px;
+     justify-items: center;
+     justify-content: center;
+     background-color: #343A40;
+    }
+
+    .product-info{
+      width: 250px;
+    }
+
+  }
+
+  button {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 35%;
+  }
+
+  button:hover {
+    background-color: #cecece;
+  }
