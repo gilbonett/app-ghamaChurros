@@ -23,7 +23,7 @@ const [comentario, setComentario] = useState([])
 return (
   
 <div className='container'>
-    <div className= 'row comentarios justify-content-end'>
+    <div className= 'row comentarios'>
      <div className='col-5'>
          <form action='' className='form-comentarios d-flex justify-content-end flex-wrap'>
          <input 

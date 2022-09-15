@@ -1,0 +1,29 @@
+
+.TextoF {
+  width: 398px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.TextoF p {
+  padding-bottom: 10px;
+  color: #707070;
+}
+
+.Final {
+  display: flex;
+  padding-left: 150px;
+  font-family: Segoe UI;
+  background: #000000;
+  padding-bottom: 25px;
+}
+
+.TextoF img {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.Logo-red{
+ padding-right: 15px;
+
+}
