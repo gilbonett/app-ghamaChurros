@@ -22,8 +22,9 @@ function IndividualIntervalsHeroImage() {
               alt="logo agenda"
             />
           <div className='Tittle'>
-          <h3>Ghamachurros</h3>
+          <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
+          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -42,8 +43,9 @@ function IndividualIntervalsHeroImage() {
               alt="logo agenda"
             />
           <div className='Tittle'>
-          <h3>Ghamachurros</h3>
+          <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
+          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
         
@@ -63,8 +65,9 @@ function IndividualIntervalsHeroImage() {
               alt="logo agenda"
             />
           <div className='Tittle'>
-          <h3>Ghamachurros</h3>
+          <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
+          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

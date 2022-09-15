@@ -15,12 +15,13 @@
 
 .Tittle h3 {
   padding-bottom: 2px;
-  font-size: 6vw;
+  font-size: 4.5vw;
   font-weight: bold;
 }
 
 .Tittle p {
-  font-size: 2vw;
+  font-size: 1.5vw;
+  color: rgb(10, 1, 6);
   -webkit-text-stroke: 0.1vw #000000;
 }
 
