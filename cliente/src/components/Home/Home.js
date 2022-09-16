@@ -4,10 +4,11 @@ import Cart from "../Cart/Cart";
 import IndividualIntervalsHeroImage from "../HeroImage/HeroImage";
 import Navbar from "../Navbar/Navbar"; */
 import Products from "../Products/Menu";
+import "./Home.css"
 
 const Home = () => {
   return (
-    <div>
+    <div className="cep">
           <Cart/>
           <Products/>
     </div>
