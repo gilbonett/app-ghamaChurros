@@ -75,10 +75,10 @@ const Cart = () => {
 
       {cartItems && cartOpen && (
         <div className='cart'>
-          <h2>Tu carrito</h2>
+          <h2>Produtos</h2>
 
           {cartItems.length === 0 ? (
-            <p className='cartVacio'>Tu carrito esta vacio</p>
+            <p className='cartVacio'>Sem produtos</p>
           ) : (
             <div className='productsContainer'>
               {cartItems.map((product, id) => (
