@@ -11,7 +11,6 @@ export const ItemCart = ({ product }) => {
   const {id} = product;
   return (
     <div className='cartItem'>
-      <img src={product.img} alt={product.title} />
       <div className='dataContainer'>
         <div className='left'>
           <p>{product.title}</p>

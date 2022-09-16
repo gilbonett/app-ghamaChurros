@@ -1,23 +1,16 @@
 import React, { useState } from "react";
+import Cart from "../Cart/Cart";
 import "./Navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [busqueda, setBusqueda]= useState("");
-
-  const handleChange=e=>{
-    setBusqueda(e.target.value);
-}
-
+  
   return (
     <div className="Navbar">
        <img
               src="/assets/logo2.png"
-              width="40"
-              height="40"
-              className="d-inline-block align-top"
+              className="imglogo"
               alt="logo agenda"
             />
       <span className="nav-logo">GhamaChurros</span>
@@ -26,21 +19,7 @@ const Navbar = () => {
         <a href="/Contato">Contato</a>
         <a href="/Comentarios">Comentarios</a>
        </div>
-     
-       <div className="App">
-      <div className="containerInput">
-        <input
-          className="form-control inputBuscar"
-          value={busqueda}
-          placeholder="Busqueda"
-          onChange={handleChange}
-        />
-        <button className="btn btn-succes">
-          <FontAwesomeIcon icon={faSearch}/>
-        </button>
-      </div>
-      </div>
-        
+        <Cart/>
       <div className={`nav-toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}
       >

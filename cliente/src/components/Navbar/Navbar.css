@@ -8,6 +8,13 @@
     align-items: center;
     background: #FFF159;
   }
+
+  .imglogo{
+    display: flex;
+    margin-left:50px;
+    height: 30;
+    width: 30;
+  }
   
   .Navbar > .nav-logo {
     font-family: 'Josefin Sans', sans-serif;
