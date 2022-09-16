@@ -133,12 +133,11 @@ span {
   }
   /* TODO obs. fazer que se vejam duas colunas de cards */
   .productsMenu {
-    width: 90vw;
+   
     margin: 0 auto;
-    max-width: 1170px;
+ 
     display: grid;
-    gap: 3rem 2rem;
-    justify-items: center;
+    
     background-color: #343A40;
   }
   
@@ -217,11 +216,11 @@ span {
 
   @media screen and (min-width: 1200px) {
     .productsMenu{
-     width: 100%;
+     width: 65%;
      display: grid;
      grid-template-columns: repeat(3, 0fr);
      grid-row-gap: 20px;
-     grid-column-gap: 75px;
+     grid-column-gap: 30px;
      justify-items: center;
      justify-content: center;
      background-color: #343A40;

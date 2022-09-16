@@ -33,7 +33,7 @@ export const ProductsData = [
       price: 20.99,
       amount: 0,
       descricao: `Churros de nutella e cocacola`,
-      img: 'https://document-export.canva.com/q-wrQ/DAEbdzq-wrQ/12/thumbnail/0001-19664051189.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220907T104245Z&X-Amz-Expires=38075&X-Amz-Signature=9d67d6792eb60210ea75f2db56f71fc1f077630217be9cf53b5ae13fd25a2d49&X-Amz-SignedHeaders=host&response-expires=Wed%2C%2007%20Sep%202022%2021%3A17%3A20%20GMT',
+      img: "https://tofuu.getjusto.com/orioneat-prod-resized/Qnvam36oD2yGa88dv-1200-1200.webp",
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ export const ProductsData = [
       price: 18.99,
       amount: 0,
       descricao: `Churros de Nutela e Doce de Leite e Cocacola`,
-      img: 'https://www.canva.com/design/DAEbeFplOcc/xUEViLBB_ueXbZ5mXl2FVg/edit?utm_content=DAEbeFplOcc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+      img: 'https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-3707-a6a076a8a0363226e5209c348ceeded6.jpg',
     },
     {
       id: 7,
@@ -78,6 +78,6 @@ export const ProductsData = [
       price: 16.99,
       amount: 0,
       descricao: `Churros con topping de morango`,
-      img: 'https://document-export.canva.com/mntf0/DAEb9Nmntf0/49/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220907T102016Z&X-Amz-Expires=42406&X-Amz-Signature=f90de14b6ed8009dc50b232b9ef4666ea95091cbef9360de7e94ca3f5985b26b&X-Amz-SignedHeaders=host&response-expires=Wed%2C%2007%20Sep%202022%2022%3A07%3A02%20GMT',
+      img: 'https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-3707-a6a076a8a0363226e5209c348ceeded6.jpg',
     },
   ];

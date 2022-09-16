@@ -11,13 +11,12 @@ export const ItemCart = ({ product }) => {
   const {id} = product;
   return (
     <div className='cartItem'>
-      <img src={product.img} alt={product.title} />
       <div className='dataContainer'>
         <div className='left'>
           <p>{product.title}</p>
           <div className='buttons'>
-            <button onClick={() => AddItemToCart(product)}>AGREGAR</button>
-            <button onClick={() => DeleteItemToCart(id)}>SACAR</button>
+            <button onClick={() => AddItemToCart(product)}>Incluir</button>
+            <button onClick={() => DeleteItemToCart(id)}>Retirar</button>
           </div>
         </div>
         <div className='right'>
