@@ -27,6 +27,7 @@ const Cart = () => {
   );
 
   return (
+    
     <div className='cartContainer'>
       <div
         onClick={() => setCartOpen(!cartOpen)}
