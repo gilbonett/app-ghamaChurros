@@ -13,6 +13,13 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
+       <img
+              src="/assets/logo2.png"
+              width="40"
+              height="40"
+              className="d-inline-block align-top"
+              alt="logo agenda"
+            />
       <span className="nav-logo">GhamaChurros</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/Cardapio">Cardapio</a>n
