@@ -15,8 +15,8 @@ export const ItemCart = ({ product }) => {
         <div className='left'>
           <p>{product.title}</p>
           <div className='buttons'>
-            <button onClick={() => AddItemToCart(product)}>AGREGAR</button>
-            <button onClick={() => DeleteItemToCart(id)}>SACAR</button>
+            <button onClick={() => AddItemToCart(product)}>Incluir</button>
+            <button onClick={() => DeleteItemToCart(id)}>Retirar</button>
           </div>
         </div>
         <div className='right'>

@@ -27,6 +27,7 @@ const Cart = () => {
   );
 
   return (
+    
     <div className='cartContainer'>
       <div
         onClick={() => setCartOpen(!cartOpen)}
@@ -75,10 +76,10 @@ const Cart = () => {
 
       {cartItems && cartOpen && (
         <div className='cart'>
-          <h2>Tu carrito</h2>
+          <h2>Produtos</h2>
 
           {cartItems.length === 0 ? (
-            <p className='cartVacio'>Tu carrito esta vacio</p>
+            <p className='cartVacio'>Adicione um produto</p>
           ) : (
             <div className='productsContainer'>
               {cartItems.map((product, id) => (
@@ -87,7 +88,7 @@ const Cart = () => {
             </div>
           )}
 
-          <h2 className='total'>Total: ${total}</h2>
+          <h2 className='total'>Total: R${total}</h2>
         </div>
       )}
     </div>
