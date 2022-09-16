@@ -9,7 +9,8 @@
 }
 
     img {
-      height: 65px;
+      width: 70px;
+      height: 70px;
       border-radius: 5px;
     }
   
@@ -21,6 +22,7 @@
       padding: 15px 0;
     }
       .left {
+        width: 100%;
         padding-left: 20px;
         display: flex;
         flex-direction: column;
