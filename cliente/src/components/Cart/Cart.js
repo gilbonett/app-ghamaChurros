@@ -4,11 +4,34 @@ import CartContext from "../../context/cartContext";
 import "../Cart/Cart.css";
 
 
+
 const Cart = () => {
   /* Creamos 2 estados, uno para ver si el carrito esta abierto o no 
   y otro para obtener la cantidad de productos que tenemos en el carrito */
   const [cartOpen, setCartOpen] = useState(false);
   const [productsLength, setProductsLength] = useState(0);
+
+  
+  var dadosrecibidos = localStorage.getItem("cartProducts");
+   const data1  = JSON.parse(dadosrecibidos)
+  
+   console.log(data1)
+
+console.log(Object.values(data1))
+
+  const onSubmit = async () => {
+    
+    const response = await fetch('http://localhost:3000/order/', {
+      method: 'POST',
+      body: JSON.stringify(data1),
+      headers: {"Content-type": "application/json; charset=UTF-8"}
+    });
+    if (response.ok) {
+      console.log("OKS", response.ok);
+    }
+    else 
+      console.log("ERRO");
+  }
 
   /* Traemos del context los productos del carrito */
   const { cartItems } = useContext(CartContext);
@@ -25,6 +48,7 @@ const Cart = () => {
     (previous, current) => previous + current.amount * current.price,
     0
   );
+
 
   return (
     
@@ -76,10 +100,10 @@ const Cart = () => {
 
       {cartItems && cartOpen && (
         <div className='cart'>
-          <h2>Produtos</h2>
+          <h2>Tu carrito</h2>
 
           {cartItems.length === 0 ? (
-            <p className='cartVacio'>Adicione um produto</p>
+            <p className='cartVacio'>Tu carrito esta vacio</p>
           ) : (
             <div className='productsContainer'>
               {cartItems.map((product, id) => (
@@ -87,8 +111,10 @@ const Cart = () => {
               ))}
             </div>
           )}
-
-          <h2 className='total'>Total: R${total}</h2>
+              {/* TODO */}
+          <h2 className='total'>Total: ${total}</h2>
+          <button onClick={() => onSubmit(data1)}>Enviar</button>
+     
         </div>
       )}
     </div>

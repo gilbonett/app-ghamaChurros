@@ -27,6 +27,8 @@ export const CartProvider = ({ children }) => {
       (productInCart) => productInCart.id === product.id
     );
 
+      console.log(localStorage)
+
     /* Si el producto se encuentra en el carrito, recorremos el carrito
     y al producto le sumamos uno a la cantidad, sino retornamos el carrito como estaba */
     if (inCart) {
