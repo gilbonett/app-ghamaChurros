@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from "react";
-import CartContext from "../../context/cartContext";
+import CartContext from "../../../context/cartContext";
 //import { ProductsData } from "../Data";
 import "./Menu.css";
 

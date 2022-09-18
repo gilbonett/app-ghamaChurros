@@ -1,6 +1,6 @@
 import React, { useContext} from "react";
-import CartContext from "../../context/cartContext";
-import "../ProductCart/ProductCart.css";
+import CartContext from "../../../context/cartContext";
+import "./ProductCart.css";
 
 
 

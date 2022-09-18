@@ -81,23 +81,15 @@
       "amount": "0",
       "price": "4"
     },
+    {
+      "id": "5MRLnkT"
+    },
     [
       {
         "id": "1",
         "title": "Churros Nutella",
         "category": "churros",
         "amount": 1,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
         "price": "16",
         "descricao": "Churros con topping de doce de leite",
         "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
@@ -130,196 +122,20 @@
         "price": "16",
         "descricao": "Churros con topping de doce de leite",
         "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      },
-      {
-        "id": "2",
-        "title": "Churros Arequipe",
-        "category": "churros",
-        "amount": 1,
-        "price": "14",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      },
-      {
-        "id": "3",
-        "title": "CocaCola",
-        "category": "drinks",
-        "amount": 1,
-        "price": "4",
-        "descricao": "Refrigerante con Sabor a Coca",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
       }
     ],
     {
-      "id": "Rj592au"
+      "total": 0,
+      "id": "F1Ymrc2"
     },
     {
-      "title": "",
-      "id": "8rr9k0J"
+      "total": 14,
+      "id": "rpr9O6R"
     },
     {
-      "title": "",
-      "id": "CzQRFAd"
-    },
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      },
-      {
-        "id": "2",
-        "title": "Churros Arequipe",
-        "category": "churros",
-        "amount": 1,
-        "price": "14",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      },
-      {
-        "id": "3",
-        "title": "CocaCola",
-        "category": "drinks",
-        "amount": 1,
-        "price": "4",
-        "descricao": "Refrigerante con Sabor a Coca",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 1,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 1,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    {
-      "title": "",
-      "amount": "",
-      "id": "dGQFRZ0"
-    },
-    {
-      "id": "mwWbA2O"
-    },
-    {
-      "id": "pkCcpFX"
-    },
-    {
-      "id": "oftdmrk"
-    },
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 1,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 1,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    {
-      "id": "LSX5Iw_"
-    },
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    {
-      "title": "",
-      "amount": "",
-      "price": "",
-      "id": "f_O_xx2"
-    },
-    {
-      "title": [],
-      "amount": [],
-      "price": [],
-      "id": "JrzDo_0"
-    },
-    {
-      "id": "8HZc5JZ"
-    },
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ],
-    [
-      {
-        "id": "1",
-        "title": "Churros Nutella",
-        "category": "churros",
-        "amount": 2,
-        "price": "16",
-        "descricao": "Churros con topping de doce de leite",
-        "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
-      }
-    ]
+      "produtos": 1,
+      "total": 14,
+      "id": "mEUKvjg"
+    }
   ]
 }

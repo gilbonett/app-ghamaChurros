@@ -5,15 +5,17 @@ const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   /* Se crea un estado para el carrito */
-  const [cartItems, setCartItems] = useState(() => {
-    try {
-      /* Se usa localStorage */
-      const productosEnLocalStorage = localStorage.getItem("cartProducts");
-      return productosEnLocalStorage ? JSON.parse(productosEnLocalStorage) : [];
-    } catch (error) {
-      return [];
-    }
-  });
+  const [cartItems, setCartItems] = useState([]) 
+ 
+
+  useEffect(() => {
+    let cart = JSON.parse(localStorage.getItem("cartProducts"));
+    setCartItems(cart);
+}, []);
+  
+
+ 
+
 
   /* Cada vez que se actualize el carrito seteamos el local storage para guardar los productos */
   useEffect(() => {
@@ -26,8 +28,6 @@ export const CartProvider = ({ children }) => {
     const inCart = cartItems.find(
       (productInCart) => productInCart.id === product.id
     );
-
-      console.log(localStorage)
 
     /* Si el producto se encuentra en el carrito, recorremos el carrito
     y al producto le sumamos uno a la cantidad, sino retornamos el carrito como estaba */

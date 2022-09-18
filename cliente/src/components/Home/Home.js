@@ -1,16 +1,19 @@
 import React from "react";
-import Cart from "../Cart/Cart";
-/* import Footer from "../Footer/Footer";
-import IndividualIntervalsHeroImage from "../HeroImage/HeroImage";
-import Navbar from "../Navbar/Navbar"; */
-import Products from "../Products/Menu";
-import "./Home.css"
+import Mercado from "../Mercado/Mercado";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ListOrder from "../Order.js/ListOrder";
+
 
 const Home = () => {
   return (
-    <div className="cep">
-          <Cart/>
-          <Products/>
+    <div> 
+      <Router>
+    <Routes>
+        <Route path="/" element={<Mercado />} />
+        <Route path="/listorder" element={<ListOrder />} />
+    </Routes>
+    </Router>
+         
     </div>
   );
 };
