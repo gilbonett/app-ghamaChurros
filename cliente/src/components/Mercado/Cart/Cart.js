@@ -21,7 +21,7 @@ const Cart = () => {
       cartItems.reduce((previous, current) => previous + current.amount, 0)
     );
   }, [cartItems]);
-
+  /* TODO */
   /* Obtenemos el precio total */
   const total = cartItems.reduce(
     (previous, current) => previous + current.amount * current.price,
