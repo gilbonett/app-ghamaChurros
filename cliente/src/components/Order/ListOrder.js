@@ -9,8 +9,7 @@ export default function ListOrder() {
             setOrder(res.data);
         });
     }, []);
-   
-        
+  
     return (
         <div>
             <Container className="text-center">
@@ -32,7 +31,7 @@ export default function ListOrder() {
                                 <tr key={index}>
                                     <td>{index + 1}</td>
                                     <td>{order.produtos}</td>
-                                    <td>{order.price}</td>
+                                    <td>{order.amount}</td>
                                     <td>{order.total}</td>
                                 </tr>
                             );

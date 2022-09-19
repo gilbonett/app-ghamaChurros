@@ -1,7 +1,7 @@
 import React from "react";
 import Mercado from "../Mercado/Mercado";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ListOrder from "../Order.js/ListOrder";
+import ListOrder from "../Order/ListOrder";
 
 
 const Home = () => {

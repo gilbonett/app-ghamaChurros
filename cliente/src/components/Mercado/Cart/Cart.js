@@ -28,13 +28,26 @@ const Cart = () => {
     0
   );
 
+   
+    const productosOrder = cartItems.map(function(item, i){
+        return item.title;
+        }
+        )
 
+        
+       /*  const productosOrderD = productosOrder.reduce(
+        (contador, produtos) => {
+          contador[produtos]=(contador[produtos] || 0) +1;
+          return contador;
+        }, {})
+        
+  */
 
   const onSubmit = () => {
     let checkout = {
-        produtos: productsLength,
+        produtos:productosOrder,
+        cantidad: productsLength,
         total: total}
-    console.log(checkout);
     axios
         .post("http://localhost:3000/order", checkout)
         .then((res) => {
@@ -44,7 +57,6 @@ const Cart = () => {
             }
         });
 };
-
 
   return (
     
