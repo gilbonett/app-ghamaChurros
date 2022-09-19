@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Cart from "../Cart/Cart";
 import "./Navbar.css";
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,16 +8,19 @@ const Navbar = () => {
     <div className="Navbar">
        <img
               src="/assets/logo2.png"
-              className="imglogo"
+              width="40"
+              height="40"
+              className="d-inline-block align-top"
               alt="logo agenda"
             />
       <span className="nav-logo">GhamaChurros</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/Cardapio">Cardapio</a>
-        <a href="/Contato">Contato</a>
+        <a href="/">Mercado</a>
         <a href="/Comentarios">Comentarios</a>
+        <a href="/listorder">Orders</a>
+        <a href="/Contato">Contato</a>
        </div>
-        <Cart/>
+     
       <div className={`nav-toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}
       >

@@ -1,16 +1,19 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import IndividualIntervalsHeroImage from "../HeroImage/HeroImage";
-import Navbar from "../Navbar/Navbar";
-import Products from "../Products/Menu";
+import Mercado from "../Mercado/Mercado";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ListOrder from "../Order/ListOrder";
+
 
 const Home = () => {
   return (
-    <div>
-          <Navbar/>
-          <IndividualIntervalsHeroImage/>
-          <Products/>
-          <Footer/>
+    <div> 
+      <Router>
+    <Routes>
+        <Route path="/" element={<Mercado />} />
+        <Route path="/listorder" element={<ListOrder />} />
+    </Routes>
+    </Router>
+         
     </div>
   );
 };

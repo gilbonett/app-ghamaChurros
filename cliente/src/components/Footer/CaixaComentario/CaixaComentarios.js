@@ -45,9 +45,9 @@ return (
               <Button variant="outline-secondary">Borrar</Button>{' '}  
 
             <div className='media-body'>
-              {comentario.map((comentario,id)=>
+              {comentario.map((comentario, id)=> 
               <>
-              <p key={id}></p>
+              <p key={comentario.id}></p>
               <p className='nome'>{comentario.nome}</p>
               <p className='comentario'>{comentario.comentario}</p>
               </>
