@@ -23,7 +23,7 @@ const Cart = () => {
       cartItems.reduce((previous, current) => previous + current.amount, 0)
     );
   }, [cartItems]);
-  /* TODO */
+ 
   /* Obtenemos el precio total */
   const total = cartItems.reduce(
     (previous, current) => previous + current.amount * current.price,
@@ -36,14 +36,6 @@ const Cart = () => {
         }
         )
 
-        
-       /*  const productosOrderD = productosOrder.reduce(
-        (contador, produtos) => {
-          contador[produtos]=(contador[produtos] || 0) +1;
-          return contador;
-        }, {})
-        
-  */
 
   const onSubmit = () => {
     let checkout = {
@@ -124,7 +116,7 @@ const Cart = () => {
           )}
               {/* TODO */}
           <h2 className='total'>Total: ${total}</h2>
-          <button className="btn btn-success" onClick={() => onSubmit()}>Enviar</button>
+          <button className="btn btn-success enviar" onClick={() => onSubmit()}>Enviar</button>
      
         </div>
       )}

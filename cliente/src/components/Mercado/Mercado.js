@@ -5,7 +5,7 @@ import "./Mercado.css"
 
 const Mercado = () => {
   return (
-    <div className="cep">
+    <div className="loja">
           <Cart/>
           <Products/>
     </div>

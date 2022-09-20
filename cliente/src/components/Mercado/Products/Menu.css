@@ -1,34 +1,93 @@
 
-  .section {
-    width: 90vw;
-    margin: 0 auto;
-    max-width: 1170px;
-  }
+ @media screen and (min-width: 320px) {
 
-.price {
-    font-size: 1em;
-}
-
-span {
-    margin-left: 10px;
-}
-
-
-  @media screen and (min-width: 992px) {
-    .section {
-      width: 95vw;
-    }
-  }
-  .menu {
-    padding: 5rem 0;
-  }
   .title {
+    font-size: 20px;
     text-align: center;
   }
   
   .title-descricao{
-    height: 150px;
+    height: 100px;
 
+  }
+
+  .btn-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .productsMenu {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+  }
+  
+  .product-text {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .products {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+    padding: 30px;
+    background-color: #fff;
+  }
+
+  .imgCard{
+    max-height: 100%;
+    max-width: 100% ;
+    object-fit: contain;
+  }
+
+  .imgCard img {
+    width: 110px;
+    height: 70px;
+  }
+
+  .adicionar {
+  font-size: 8px;
+  }
+
+  .price {
+    font-size: 12px;
+  }
+  
+  .btn-price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .products {
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+    background-color: #fff;
+    padding: 30px;
+  }
+  
+}
+
+
+@media screen and (min-width: 1024px) {
+   
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .title-descricao{
+    height: 110px;
+    font-size: 14px;
   }
 
   .btn-container {
@@ -40,14 +99,14 @@ span {
   .productsMenu {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
+    grid-template-columns: repeat(3, 0fr);
   }
   
   .products {
     display: grid;
-    gap: 1rem 2rem;
+    gap: 0rem 0rem;
     max-width: 25rem;
-    padding: 30px;
+    padding: 10px;
     background-color: #fff;
   }
 
@@ -80,9 +139,12 @@ span {
   }
 
   .price {
+    font-size: 18px;
     color: #c51d93;
   }
+
   .product-text {
+    font-size: 16px;
     margin-bottom: 1rem;
     text-align: center;
   }
@@ -94,42 +156,62 @@ span {
     align-items: center;
   }
 
-  @media screen and (min-width: 768px) {
-    .products {
-      grid-template-columns: 225px 1fr;
-      gap: 0 1.25rem;
-      max-width: 40rem;
-      background-color: #fff;
-      padding: 30px;
+  .adicionar{
+    font-size: 18px;
     }
-    
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .productsMenu{
+   width: 65%;
+   display: grid;
+   grid-template-columns: repeat(3, 0fr);
+   grid-row-gap: 20px;
+   grid-column-gap: 50px;
+   justify-items: center;
+   justify-content: center;
   }
 
-  @media screen and (min-width: 1200px) {
-    .productsMenu{
-     width: 65%;
-     display: grid;
-     grid-template-columns: repeat(3, 0fr);
-     grid-row-gap: 20px;
-     grid-column-gap: 30px;
-     justify-items: center;
-     justify-content: center;
+  
+  .product-info{
+    width: 250px;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .product-text {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .adicionar{
+    font-size: 20px;
     }
 
-    .product-info{
-      width: 250px;
+    .imgCard{
+      max-height: 100%;
+      max-width: 100% ;
+      object-fit: contain;
+    }
+  
+    .imgCard img {
+      width: 260px;
+      height: 180px;
+     
     }
 
-  }
+    .price {
+      font-size: 20px;
+      color: #c51d93;
+    }
+}
 
-  button {
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    padding: 5px;
-    margin-left: 35%;
-  }
 
-  button:hover {
-    background-color: #cecece;
-  }
+ 
+ 

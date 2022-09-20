@@ -11,20 +11,10 @@
 
   .imglogo{
     display: flex;
-    margin-left:50px;
-    height: 30;
-    width: 30;
+    height: 50px;
+    width: 50px;
   }
   
-  .Navbar > .nav-logo {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    justify-self: left;
-    margin: 5px;
-    color: #f72a7b;
-  }
-
    .Navbar > .nav-items > a {
     color: #f72a7b;
     font-size: 20px;
@@ -131,4 +121,23 @@
       transform: rotate(-45deg) translate(27px, 27px);
     }
   }
+  
+  @media screen and (min-width: 1200px) {
+    .Navbar {
+      height: 100px;
+    }
+
+    
+  .imglogo{
+    height: 80px;
+    width: 80px;
+  }
+
+  
+  .Navbar > .nav-items > a {
+    font-size: 20px;
+  }
+  
+  } 
+
   
