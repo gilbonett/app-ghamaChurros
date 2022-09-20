@@ -15,9 +15,10 @@ const Navbar = () => {
             />
       <span className="nav-logo">GhamaChurros</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/Cardapio">Cardapio</a>
-        <a href="/Contato">Contato</a>
+        <a href="/">Mercado</a>
         <a href="/Comentarios">Comentarios</a>
+        <a href="/listorder">Orders</a>
+        <a href="/Contato">Contato</a>
        </div>
      
       <div className={`nav-toggle ${isOpen && "open"}`}
