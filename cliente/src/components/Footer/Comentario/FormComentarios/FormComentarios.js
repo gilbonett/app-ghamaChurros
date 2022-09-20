@@ -1,17 +1,14 @@
-import React, {useState} from "react"
+import React, {useState} from "react";
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import "./CaixaComentarios.css"
+import "./FormComentarios.css"
 
 
-function Comentarios () {
+function FormComentarios () {
   
    
    const [datos, setDatos] = useState ({nome:"", comentario:""})
-
-   
-
    
     const URL = "http://localhost:3000/comentario"
 
@@ -21,9 +18,15 @@ function Comentarios () {
         if (response.status === 201) {
         Swal.fire(
             'Comentario enviado',
-        );
-     
-        }}
+        )
+    
+        } else {
+        Swal.fire(
+            'Comentario não enviado',
+            )
+
+        }
+    }
 
         const handleChange = ({target}) => {
             setDatos({
@@ -59,16 +62,7 @@ return (
             />
             <Button as="input" type= "submit" value="Comentar" />
          </form> 
-         <div className='media-body'>
-              {comentario.map((comentario, id)=> 
-              <>
-              <p key={comentario.id}></p>
-              <p className='nome'>{comentario.nome}</p>
-              <p className='comentario'>{comentario.comentario}</p>
-              </>
-              )}
-              
-              </div> 
+         
             </div>
          </div> 
      </div>
@@ -77,4 +71,4 @@ return (
 
   }
 
-export {Comentarios};
+export default  FormComentarios;

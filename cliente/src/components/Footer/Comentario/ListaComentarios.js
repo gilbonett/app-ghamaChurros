@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react"
 import axios from 'axios';
 import { Container, Table } from "react-bootstrap";
 
-export default function ListaComentarios(){
+ function ListaComentarios(){
   const [comentario, setComentarios] = useState ([])
 
   const cargarComentarios = async () => { 
@@ -51,3 +51,5 @@ comentario.map((comentario, index) => {
 
 
 }
+
+export default ListaComentarios;
