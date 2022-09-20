@@ -1,3 +1,5 @@
+ 
+ 
  .cartContainer {
     display: flex;
     margin-left: 30px;
@@ -44,11 +46,11 @@
     
   
     .cart {
-      background-color: #111;
+       background: #FFF159;
       transition: 0.5s;
       width: 400px;
-      height: 50%;
-      color: white;
+      height: max-content;
+      color: #111;
       border-radius: 5px;
     }
      
@@ -88,3 +90,9 @@
     border-radius: 20px;
   }
   
+  @media screen and (min-width: 992px){
+    .cart{
+      width: 300px;
+      height: max-content;
+    }
+   }

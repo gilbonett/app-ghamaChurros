@@ -3,6 +3,7 @@ import { ItemCart } from "../ProductCart/ProductCart";
 import CartContext from "../../../context/cartContext";
 import "../Cart/Cart.css";
 import axios from  "axios"
+import { useNavigate } from "react-router-dom";
 
 
 const Cart = () => {
@@ -11,6 +12,7 @@ const Cart = () => {
   const [cartOpen, setCartOpen] = useState(false);
   const [productsLength, setProductsLength] = useState(0);
 
+  const navigate = useNavigate()
 
   /* Traemos del context los productos del carrito */
   const { cartItems} = useContext(CartContext);
@@ -55,6 +57,7 @@ const Cart = () => {
               console.log("OKS", res.ok);
                 localStorage.removeItem("cartProducts");
             }
+            navigate("/listorder")
         });
 };
 
@@ -121,7 +124,7 @@ const Cart = () => {
           )}
               {/* TODO */}
           <h2 className='total'>Total: ${total}</h2>
-          <button onClick={() => onSubmit()}>Enviar</button>
+          <button className="btn btn-success" onClick={() => onSubmit()}>Enviar</button>
      
         </div>
       )}

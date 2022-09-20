@@ -72,6 +72,42 @@
       "amount": 3,
       "total": 46,
       "id": "GR3jyMZ"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola",
+        "Churros de Chocolate"
+      ],
+      "cantidad": 4,
+      "total": 42,
+      "id": "Y_y7Ts5"
+    },
+    {
+      "produtos": [],
+      "cantidad": 0,
+      "total": 0,
+      "id": "HspqHZY"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola"
+      ],
+      "cantidad": 3,
+      "total": 34,
+      "id": "pPpGWH9"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella"
+      ],
+      "cantidad": 2,
+      "total": 30,
+      "id": "V7ydneA"
     }
-  ]}
-  
+  ]
+}

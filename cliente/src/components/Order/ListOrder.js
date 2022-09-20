@@ -14,12 +14,12 @@ export default function ListOrder() {
         <div>
             <Container className="text-center">
                 <br />
-                <h1>Order History</h1>
+                <h1>Orden de Pedidos</h1>
                 <br />
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>Order.No.</th>
+                            <th>Pedido.Nr</th>
                             <th>Produtos</th>
                             <th>Cantidad</th>
                             <th>Total</th>
@@ -32,7 +32,7 @@ export default function ListOrder() {
                                     <td>{index + 1}</td>
                                     <td>{order.produtos}</td>
                                     <td>{order.amount}</td>
-                                    <td>{order.total}</td>
+                                    <td>{order.total +  "R$"} </td>
                                 </tr>
                             );
                         })}

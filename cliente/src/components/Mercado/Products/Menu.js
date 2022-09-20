@@ -38,7 +38,7 @@ console.log()
               </section>
               <div className="btn-price">
               <h6 className="price">${price}</h6>
-              <button className="btn btn-success" onClick={() => AddItemToCart(product)}>Add to Cart</button>
+              <button className="btn btn-success" onClick={() => AddItemToCart(product)}>Adicionar</button>
               </div>
             </div>
           </article>
