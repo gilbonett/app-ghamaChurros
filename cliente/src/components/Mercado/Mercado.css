@@ -1,0 +1,4 @@
+.loja{
+    display: flex;
+    flex-direction: row;
+}

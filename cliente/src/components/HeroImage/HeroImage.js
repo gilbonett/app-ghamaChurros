@@ -16,8 +16,8 @@ function IndividualIntervalsHeroImage() {
         <Carousel.Caption>
         <img
               src="/assets/logo2.png"
-              width="300"
-              height="300"
+              width="150"
+              height="150"
               className="d-inline-block align-top"
               alt="logo agenda"
             />
@@ -37,8 +37,8 @@ function IndividualIntervalsHeroImage() {
         <Carousel.Caption>
         <img
               src="/assets/logo2.png"
-              width="300"
-              height="300"
+              width="150 "
+              height="150"
               className="d-inline-block align-top"
               alt="logo agenda"
             />
@@ -59,8 +59,8 @@ function IndividualIntervalsHeroImage() {
         <Carousel.Caption>
         <img
               src="/assets/logo2.png"
-              width="300"
-              height="300"
+              width="150"
+              height="150"
               className="d-inline-block align-top"
               alt="logo agenda"
             />

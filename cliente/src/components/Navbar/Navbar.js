@@ -1,51 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [busqueda, setBusqueda]= useState("");
-
-  const handleChange=e=>{
-    setBusqueda(e.target.value);
-}
-
+ 
+  
   return (
     <div className="Navbar">
-       <img
-              src="/assets/logo2.png"
-              width="40"
-              height="40"
-              className="d-inline-block align-top"
+       <img   src="/assets/logo2.png"
+              className="d-inline-block align-top imglogo"
               alt="logo agenda"
             />
-      <span className="nav-logo">GhamaChurros</span>
-      <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/Cardapio">Cardapio</a>
-        <a href="/Contato">Contato</a>
+      <div className='nav-items'>
+        <a href="/">Mercado</a>
+        <a href="/listorder">Pedidos</a>
         <a href="/Comentarios">Comentarios</a>
+        <a href="/Contato">Contato</a>
        </div>
-     
-       <div className="App">
-      <div className="containerInput">
-        <input
-          className="form-control inputBuscar"
-          value={busqueda}
-          placeholder="Busqueda"
-          onChange={handleChange}
-        />
-        <button className="btn btn-succes">
-          <FontAwesomeIcon icon={faSearch}/>
-        </button>
-      </div>
-      </div>
-        
-      <div className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <div className="bar"></div>
-      </div>
+      
     </div>
 
 );
