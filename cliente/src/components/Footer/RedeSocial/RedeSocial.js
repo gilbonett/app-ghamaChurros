@@ -1,8 +1,9 @@
 import React from "react";
 
+
 function RedeSocial () {
     return (
-<article className="Final">
+<div className="Final">
   <div className ="TextoF">
       <h1>Contatos</h1>
     <p>Quer entrar em contato com nos?</p>
@@ -18,7 +19,7 @@ function RedeSocial () {
      <a href="https://linkwhats.app/f27e11" className="Logo-red-3">
       <img src="/assets/WhatsApp.png" width="58" height="58"/></a>
   </div>
-</article>
+</div>
 
 
     );
