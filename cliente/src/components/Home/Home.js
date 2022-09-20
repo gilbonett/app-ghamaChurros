@@ -1,5 +1,6 @@
 import React from "react";
 import Cart from "../Cart/Cart";
+import Comentario from "../Footer/Comentario/Comentario";
 /* import Footer from "../Footer/Footer";
 import IndividualIntervalsHeroImage from "../HeroImage/HeroImage";
 import Navbar from "../Navbar/Navbar"; */
@@ -11,6 +12,7 @@ const Home = () => {
     <div className="cep">
           <Cart/>
           <Products/>
+          <Comentario/>
     </div>
   );
 };
