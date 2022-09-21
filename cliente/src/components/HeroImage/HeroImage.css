@@ -4,13 +4,13 @@
 @media screen and (min-width: 320px) {
 
   .Contenedor{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .carousel-caption img{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
 
   .carousel-caption{
