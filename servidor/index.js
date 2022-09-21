@@ -3,7 +3,9 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
 const app = express();
-
+const cors = require('cors')
+ 
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 
@@ -13,6 +15,6 @@ mongoose
   .connect('mongodb+srv://bonett:toti16@cluster0.nf0wacg.mongodb.net/test')
   .then(() => {
     console.log('Conectou ao banco!')
-    app.listen(3000)
+    app.listen(3500)
   })
   .catch((err) => console.log(err))

@@ -31,7 +31,7 @@ router.get('/:producId', async (req, res) => {
   });
   
   
-  router.post('/', async (req, res) => {
+  router.post('/create-product', async (req, res) => {
     try {
       const product = await Product.create({ ...req.body, user: req.userId});
   
