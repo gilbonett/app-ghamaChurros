@@ -2,7 +2,7 @@ import React from "react";
 import Mercado from "../Mercado/Mercado";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ListOrder from "../Order/ListOrder";
-import ListaComentarios from "../Footer/Comentario/ListaComentarios";
+import ListaComentarios from "../Comentario/ListaComentarios";
 
 
 const Home = () => {

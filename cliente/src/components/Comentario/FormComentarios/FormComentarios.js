@@ -3,13 +3,15 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import "./FormComentarios.css"
+import { useNavigate } from "react-router-dom";
 
 
 function FormComentarios () {
   
    
    const [datos, setDatos] = useState ({nome:"", comentario:""})
-   
+
+
     const URL = "http://localhost:3000/comentario"
 
     const handleSubmit = async (e) => {
@@ -19,8 +21,9 @@ function FormComentarios () {
         Swal.fire(
             'Comentario enviado',
         )
+        }  
     
-        } else {
+        else {
         Swal.fire(
             'Comentario não enviado',
             )
