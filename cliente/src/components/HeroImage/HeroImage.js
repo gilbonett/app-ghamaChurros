@@ -24,7 +24,7 @@ function IndividualIntervalsHeroImage() {
           <div className='Tittle'>
           <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
-          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
+          <p>Aberto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -45,7 +45,7 @@ function IndividualIntervalsHeroImage() {
           <div className='Tittle'>
           <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
-          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
+          <p>Aberto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
         
@@ -67,7 +67,7 @@ function IndividualIntervalsHeroImage() {
           <div className='Tittle'>
           <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
-          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
+          <p>Aberto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

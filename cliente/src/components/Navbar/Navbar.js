@@ -12,8 +12,8 @@ const Navbar = () => {
             />
       <div className='nav-items'>
         <a href="/">Mercado</a>
-        <a href="/listorder">Pedidos</a>
-        <a href="/Comentarios">Comentarios</a>
+        <a href="/comentario">Comentarios</a>
+        <a href="/listorder">Orders</a>
         <a href="/Contato">Contato</a>
        </div>
       
