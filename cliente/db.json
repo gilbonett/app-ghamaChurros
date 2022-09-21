@@ -24,6 +24,11 @@
       "nome": "sdadadadaa",
       "comentario": "cncncncnc",
       "id": 5
+    },
+    {
+      "nome": "ddfgg",
+      "comentario": "sddff",
+      "id": 6
     }
   ],
   "item": [
@@ -94,105 +99,21 @@
       "id": "GR3jyMZ"
     },
     {
-      "email": "hector@gmail.com",
-      "cantidad": 2,
-      "total": 30,
-      "id": "xiBo3g3"
-    },
-    {
-      "email": "hector@gmail.com",
-      "cantidad": 2,
-      "total": 30,
-      "id": "MZcIVwV"
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "cantidad": 5,
-      "total": 52,
-      "id": "ipSgl7K"
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "cantidad": 3,
-      "total": 34,
-      "id": "YFW64mp"
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "cantidad": 3,
-      "total": 34,
-      "id": "ExsEaR1"
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "cantidad": 4,
-      "total": 42,
-      "id": "Jz9gVx-"
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "cantidad": 4,
-      "total": 38,
-      "id": "HwktFvd"
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "cantidad": 4,
-      "total": 42,
-      "id": "kn-HlvC"
-    },
-    {
       "produtos": [
         "Churros Arequipe",
         "Churros Nutella",
         "CocaCola",
         "Churros de Chocolate"
       ],
-      "email": "gilbonett@gmail.com",
       "cantidad": 4,
       "total": 42,
-      "id": "ulW3oDA"
+      "id": "Y_y7Ts5"
     },
     {
-      "produtos": [
-        "CocaCola",
-        "Churros de Fresa",
-        "Churros de Chocolate",
-        "Fanta",
-        "Churros Arequipe",
-        "Churros Nutella"
-      ],
-      "email": "gilbonett@gmail.com",
-      "amount": 9,
-      "total": 86,
-      "id": "zcYvSWL"
-    },
-    {
-      "produtos": [
-        "CocaCola",
-        "Churros de Fresa",
-        "Churros de Chocolate",
-        "Fanta",
-        "Churros Arequipe",
-        "Churros Nutella"
-      ],
-      "email": "gilbonett@gmail.com",
-      "amount": 12,
-      "total": 120,
-      "id": "iT3b-sN"
-    },
-    {
-      "produtos": [
-        "Churros Arequipe",
-        "Churros Nutella",
-        "CocaCola",
-        "Churros de Chocolate",
-        "Churros de Fresa"
-      ],
-      "email": "lucasrleandro@hotmail.com",
-      "amount": 5,
-      "total": 52,
-      "id": "FpYQjVx"
+      "produtos": [],
+      "cantidad": 0,
+      "total": 0,
+      "id": "HspqHZY"
     },
     {
       "produtos": [
@@ -200,65 +121,31 @@
         "Churros Nutella",
         "CocaCola"
       ],
-      "email": "gilbonett@gmail.com",
-      "amount": 3,
+      "cantidad": 3,
       "total": 34,
-      "id": "XJCLAeK"
-    }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "nome": "Pedro",
-      "email": "quiero comer churros",
-      "senha": "quiero comer churros"
+      "id": "pPpGWH9"
     },
     {
-      "nome": "Pedro",
-      "email": "gilbonett@gmail.com",
-      "senha": "11091025",
-      "id": 2
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella"
+      ],
+      "cantidad": 2,
+      "total": 30,
+      "id": "V7ydneA"
     },
     {
-      "nome": "Hector",
-      "email": "hector@gmail.com",
-      "senha": "11091015",
-      "id": 3
-    },
-    {
-      "email": "hector@gmail.com",
-      "senha": "11091015",
-      "id": 4
-    },
-    {
-      "email": "hector@gmail.com",
-      "senha": "11091015",
-      "id": 5
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "senha": "11254789",
-      "id": 6
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "senha": "11091025",
-      "id": 7
-    },
-    {
-      "email": "lucasrleandro@hotmail.com",
-      "senha": "12345678",
-      "id": 8
-    },
-    {
-      "email": "lucasrleandro@hotmail.com",
-      "senha": "12345678",
-      "id": 9
-    },
-    {
-      "email": "gilbonett@gmail.com",
-      "senha": "123456789",
-      "id": 10
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola",
+        "Churros de Chocolate",
+        "Churros de Fresa",
+        "Fanta"
+      ],
+      "cantidad": 13,
+      "total": 120,
+      "id": "dlfYFPG"
     }
   ]
 }
