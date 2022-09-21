@@ -23,7 +23,7 @@ const LoginSchema = Yup.object()
         email: Yup.string()
             .email("O email deve ser valido")
             .required("O email é necesario"),
-        password: Yup.string().min(8).max(16).required("A senha é necesaria"),
+        senha: Yup.string().min(8).max(16).required("A senha é necesaria"),
     })
     .required();
 
@@ -39,7 +39,7 @@ function LogIN() {
     const onSubmit = (data) => {
         //console.warn(data);
         if (data) {
-            axios.post("http://localhost:3000/login", data).then((res) => {
+            axios.post("http://localhost:3000/user", data).then((res) => {
                 //alert(res.data.message);
                 console.log(res.data.token);
                 if (res.data.userDet) {
@@ -115,7 +115,7 @@ function LogIN() {
                                             <Form.Control
                                                 className="mb-2"
                                                 type="password"
-                                                {...register("password")}
+                                                {...register("senha")}
                                                 placeholder="Senha"
                                                 required/>
                                            

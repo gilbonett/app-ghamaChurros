@@ -20,11 +20,11 @@ import "../User/User.css"
 
 const SignSchema = Yup.object()
     .shape({
-        name: Yup.string().min(2).required("O nome é necesario"),
+        nome: Yup.string().min(2).required("O nome é necesario"),
         email: Yup.string()
             .email("O email deve ser valido")
             .required("O email é necesario"),
-        password: Yup.string().min(8).max(16).required("A senha é necesaria"),
+        senha: Yup.string().min(8).max(16).required("A senha é necesaria"),
     })
 
 
@@ -42,7 +42,7 @@ export function Cadastro() {
     const onSubmit = (data) => {
         //console.warn(data);
         if (data) {
-            axios.post("http://localhost:3000/cadastro", data).then((res) => {
+            axios.post("http://localhost:3000/user", data).then((res) => {
                 //alert(res.data.message);
                 if (res.data.flg === 1) {
                     toast.success(`${res.data.message}`, {
@@ -50,7 +50,7 @@ export function Cadastro() {
                         autoClose: 5000,
                         theme: "dark",
                     });    
-                 navigate("/");
+                   navigate("/cardapio")
                 } else {
                     toast.error(`${res.data.message}`, {
                         position: "top-left",
@@ -100,7 +100,7 @@ export function Cadastro() {
                                                     id="exampleInputFname"
                                                     aria-describedby="emailHelp"
                                                     placeholder="Nome"
-                                                    {...register("fname")}
+                                                    {...register("nome")}
                                                     required
                                                 />
 
@@ -149,7 +149,7 @@ export function Cadastro() {
 
                                                 <Form.Control
                                                     type="password"
-                                                    {...register("password")}
+                                                    {...register("senha")}
                                                     placeholder="Senha"
                                                     required
                                                 />
