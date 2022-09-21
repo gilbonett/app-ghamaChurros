@@ -113,14 +113,21 @@
       "produtos": [
         "Churros Arequipe",
         "Churros Nutella",
-        "CocaCola",
-        "Churros de Chocolate",
-        "Churros de Fresa",
-        "Fanta"
+        "CocaCola"
       ],
-      "cantidad": 13,
-      "total": 120,
-      "id": "dlfYFPG"
+      "cantidad": 3,
+      "total": 34,
+      "id": "mwcmbX7"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola"
+      ],
+      "cantidad": 3,
+      "total": 34,
+      "id": "URZFhWg"
     }
   ]
 }

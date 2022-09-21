@@ -6,8 +6,7 @@ import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
 import { useNavigate } from "react-router";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import Swal from 'sweetalert2';
 
 const SignSchema = Yup.object()
     .shape({
@@ -39,20 +38,20 @@ export function SignUP() {
             axios.post("http://localhost:8888/signup", data).then((res) => {
                 //alert(res.data.message);
                 if (res.data.flg === 1) {
-                    toast.success(`${res.data.message}`, {
-                        position: "top-left",
-                        autoClose: 5000,
-                        theme: "dark",
-                    });
+                  Swal.fire({
+                    icon:"success",
+                   title:"Contato Atualizado",
+                 }
+                 );
                     setTimeout(() => {
                         navigate("/");
                     }, 3000);
                 } else {
-                    toast.error(`${res.data.message}`, {
-                        position: "top-left",
-                        autoClose: 5000,
-                        theme: "dark",
-                    });
+                  Swal.fire(
+                    'Error!',
+                    'Teve  problema ao criar o registro!',
+                    'error'
+                );
                 }
             });
         } else {
@@ -104,26 +103,6 @@ export function SignUP() {
         <Form.Control placeholder="Apartment, studio, or floor" />
       </Form.Group>
 
-      <Row className="mb-3">
-        <Form.Group as={Col} controlId="formGridCity">
-          <Form.Label>City</Form.Label>
-          <Form.Control />
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="formGridState">
-          <Form.Label>State</Form.Label>
-          <Form.Select defaultValue="Choose...">
-            <option>Choose...</option>
-            <option>...</option>
-          </Form.Select>
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="formGridZip">
-          <Form.Label>Zip</Form.Label>
-          <Form.Control />
-        </Form.Group>
-      </Row>
-
       <Form.Group className="mb-3" id="formGridCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
@@ -152,7 +131,6 @@ export function SignUP() {
                     </Card>
                 </Container>
             </section>
-            <ToastContainer newestOnTop />
         </>
     );
 }
