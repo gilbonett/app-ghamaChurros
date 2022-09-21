@@ -11,6 +11,6 @@ const ComentarioSchema = new mongoose.Schema({
     },
   });
   
-  const Comentario = mongoose.model('comentario', ProductSchema);
+  const Comentario = mongoose.model('comentario', ComentarioSchema);
   module.exports = Comentario;
   

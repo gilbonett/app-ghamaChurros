@@ -7,7 +7,7 @@ const router = express.Router();
 
 
 
-router.post('/', async (req, res) => {
+router.post('/create', async (req, res) => {
     try {
       const comentario = await Comentario.create({ ...req.body, user: req.userId});
   
@@ -17,3 +17,5 @@ router.post('/', async (req, res) => {
       return res.status(400).send({ error: 'Error creating new comment' });
     }
   });
+
+  module.exports = app => app.use('/comment', router);
