@@ -1,4 +1,5 @@
 import React from "react";
+import "./RedeSocial.css"
 
 
 function RedeSocial () {
@@ -7,7 +8,7 @@ function RedeSocial () {
   <div className ="TextoF">
       <h1>Contatos</h1>
     <p>Quer entrar em contato com nos?</p>
-    <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+    <p>Preencha o formulário ao lado e entraremos em contato.</p>
     <p>Você também podenos  encontrar nas seguintes redes sociais:</p>
 
      <a href=" " className="Logo-red-1">

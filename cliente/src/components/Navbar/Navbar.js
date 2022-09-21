@@ -6,7 +6,7 @@ const Navbar = () => {
   
   return (
     <div className="Navbar">
-       <img   src="/assets/logo2.png"
+       <img   src="/assets/logo4.png"
               className="d-inline-block align-top imglogo"
               alt="logo agenda"
             />

@@ -41,8 +41,8 @@ function FormComentarios () {
 return (
   
 <div className='container'>
-    <div className= 'row comentarios'>
-     <div className='col-5'>
+    <div className= 'row  comentarios'>
+     <div className='col-8'>
          <form  action=""   className='form-comentarios d-flex justify-content-end flex-wrap' onSubmit={handleSubmit}>
          <input 
             name="nome"
@@ -60,7 +60,7 @@ return (
             onChange={handleChange}
             type= 'text'
             value= {datos.comentario} 
-            className="form-control mb-4"
+            className="form-control mb-6"
             required
             />
             <Button as="input" type= "submit" value="Comentar" />

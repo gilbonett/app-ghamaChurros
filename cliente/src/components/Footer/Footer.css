@@ -1,9 +1,17 @@
-.footer{
-  display: flex;
-  padding-left: 40px;
+ .footer{
+  padding-left: 220px;
   padding-right: 40px;
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   background: #FFF159;
+  max-width: 100%;
+  display: flex;
+} 
 
+@media (max-width:500px) {
+  .footer {
+    padding-left: 40px;
+    width: 500px;
+  }
+  
 }
