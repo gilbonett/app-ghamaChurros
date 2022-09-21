@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import "./FormComentarios.css"
-import { useNavigate } from "react-router-dom";
+
 
 
 function FormComentarios () {

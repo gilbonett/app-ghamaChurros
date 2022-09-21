@@ -21,6 +21,7 @@ export default function ListOrder() {
                         <tr>
                             <th>Pedido.Nr</th>
                             <th>Produtos</th>
+                            <th>Email</th>
                             <th>Cantidad</th>
                             <th>Total</th>
                         </tr>
@@ -30,9 +31,10 @@ export default function ListOrder() {
                             return (
                                 <tr key={index}>
                                     <td>{index + 1}</td>
-                                    <td>{order.produtos}</td>
+                                    <td>{order.produtos + " "}</td>
+                                    <td>{order.email}</td>
                                     <td>{order.amount}</td>
-                                    <td>{order.total +  "R$"} </td>
+                                    <td>{order.total +  " R$"} </td>
                                 </tr>
                             );
                         })}
