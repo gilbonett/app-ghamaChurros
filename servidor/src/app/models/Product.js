@@ -9,10 +9,6 @@ const ProductSchema = new mongoose.Schema({
       type: String,
       require: true,
     },
-    category: {
-      type: String,
-      require: true
-    },
     image: {
       type: String,
       require: true
@@ -21,14 +17,8 @@ const ProductSchema = new mongoose.Schema({
       type: Number,
       require: true
     },
-    comprador: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'user',
-      require: true
-    },
-    createdAt: {
-      type: Date,
-      default: Date.now,
+    amount: {
+      type: Number,
     },
   });
   
