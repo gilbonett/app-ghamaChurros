@@ -27,14 +27,11 @@
     }
   ],
   "item": [
-    {
-      "id": "1",
-      "title": "Churros Arequipe",
-      "category": "churros",
-      "amount": "0",
+    { "name": "Churros Arequipe",
+      "description": "Churros con topping de doce de leite",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg",
       "price": "16",
-      "descricao": "Churros con topping de doce de leite",
-      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+      "amount": "0"
     },
     {
       "id": "2",
