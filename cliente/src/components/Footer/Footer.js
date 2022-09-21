@@ -1,13 +1,13 @@
 import React from "react";
+import FormComentarios from "../Comentario/FormComentarios/FormComentarios";
 import './Footer.css';
-import {Comentarios} from "./CaixaComentario/CaixaComentarios"
 import RedeSocial from "./RedeSocial/RedeSocial";
 
 function Footer() {
     return(
         <div className="footer">
-        <Comentarios/>
-        <RedeSocial/>
+        <RedeSocial />
+        <FormComentarios />
         </div>
     )
 }

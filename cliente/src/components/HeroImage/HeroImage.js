@@ -16,15 +16,15 @@ function IndividualIntervalsHeroImage() {
         <Carousel.Caption>
         <img
               src="/assets/logo2.png"
-              width="300"
-              height="300"
+              width="150"
+              height="150"
               className="d-inline-block align-top"
               alt="logo agenda"
             />
           <div className='Tittle'>
           <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
-          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
+          <p>Aberto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -37,15 +37,15 @@ function IndividualIntervalsHeroImage() {
         <Carousel.Caption>
         <img
               src="/assets/logo2.png"
-              width="300"
-              height="300"
+              width="150 "
+              height="150"
               className="d-inline-block align-top"
               alt="logo agenda"
             />
           <div className='Tittle'>
           <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
-          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
+          <p>Aberto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
         
@@ -59,15 +59,15 @@ function IndividualIntervalsHeroImage() {
         <Carousel.Caption>
         <img
               src="/assets/logo2.png"
-              width="300"
-              height="300"
+              width="150"
+              height="150"
               className="d-inline-block align-top"
               alt="logo agenda"
             />
           <div className='Tittle'>
           <h3>GhamaChurros</h3>
           <p>Rua Conselheiro José Fernanades 134, Centro, RJ</p>
-          <p>Abierto: De Terça Feira até Domingo das 16h até 23h</p>
+          <p>Aberto: De Terça Feira até Domingo das 16h até 23h</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

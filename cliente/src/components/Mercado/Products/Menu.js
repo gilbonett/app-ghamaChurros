@@ -1,6 +1,6 @@
-import React, {useContext} from "react";
-import CartContext from "../../context/cartContext";
-import { ProductsData } from "../Data";
+import React, {useContext, useEffect, useState} from "react";
+import CartContext from "../../../context/cartContext";
+//import { ProductsData } from "../Data";
 import "./Menu.css";
 
 
@@ -9,9 +9,24 @@ const Products = () => {
   /* Traemos del context la funcion para agregar un producto */
   const { AddItemToCart } = useContext(CartContext);
 
+  
+const [item, setItem] = useState([])
+
+
+function readProducts() {
+fetch ('http://localhost:3000/item/')
+.then ((res) => res.json () )
+.then (data => setItem (data) );
+console.log()
+};
+
+ useEffect(() => {
+  readProducts();
+ }, []);
+
   return (
     <div className="productsMenu">
-      {ProductsData.map((product) => {
+      {item.map((product) => {
         const { id, title, descricao, price, img } = product;
         return (
           <article key={id} className="products">
@@ -23,7 +38,7 @@ const Products = () => {
               </section>
               <div className="btn-price">
               <h6 className="price">${price}</h6>
-              <button className="btn btn-success" onClick={() => AddItemToCart(product)}>Add to Cart</button>
+              <button className="btn btn-success adicionar" onClick={() => AddItemToCart(product)}>Adicionar</button>
               </div>
             </div>
           </article>

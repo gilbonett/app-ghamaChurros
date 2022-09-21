@@ -1,7 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 import { ItemCart } from "../ProductCart/ProductCart";
-import CartContext from "../../context/cartContext";
+import CartContext from "../../../context/cartContext";
 import "../Cart/Cart.css";
+import axios from  "axios"
+import { useNavigate } from "react-router-dom";
 
 
 const Cart = () => {
@@ -10,8 +12,10 @@ const Cart = () => {
   const [cartOpen, setCartOpen] = useState(false);
   const [productsLength, setProductsLength] = useState(0);
 
+  const navigate = useNavigate()
+
   /* Traemos del context los productos del carrito */
-  const { cartItems } = useContext(CartContext);
+  const { cartItems} = useContext(CartContext);
 
   /* Cada vez que se modifica el carrito, actualizamos la cantidad de productos */
   useEffect(() => {
@@ -19,12 +23,35 @@ const Cart = () => {
       cartItems.reduce((previous, current) => previous + current.amount, 0)
     );
   }, [cartItems]);
-
+ 
   /* Obtenemos el precio total */
   const total = cartItems.reduce(
     (previous, current) => previous + current.amount * current.price,
     0
   );
+
+   
+    const productosOrder = cartItems.map(function(item, i){
+        return item.title;
+        }
+        )
+
+
+  const onSubmit = () => {
+    let checkout = {
+        produtos:productosOrder,
+        cantidad: productsLength,
+        total: total}
+    axios
+        .post("http://localhost:3000/order", checkout)
+        .then((res) => {
+            if (res.data.flag === 1) {
+              console.log("OKS", res.ok);
+                localStorage.removeItem("cartProducts");
+            }
+            navigate("/listorder")
+        });
+};
 
   return (
     
@@ -79,16 +106,18 @@ const Cart = () => {
           <h2>Produtos</h2>
 
           {cartItems.length === 0 ? (
-            <p className='cartVacio'>Adicione um produto</p>
+            <p className='cartVacio'>Sem produtos</p>
           ) : (
             <div className='productsContainer'>
               {cartItems.map((product, id) => (
-                <ItemCart key={id} product={product} />
+                <ItemCart key={id} product={product}  />
               ))}
             </div>
           )}
-
-          <h2 className='total'>Total: R${total}</h2>
+              {/* TODO */}
+          <h2 className='total'>Total: ${total}</h2>
+          <button className="btn btn-success enviar" onClick={() => onSubmit()}>Enviar</button>
+     
         </div>
       )}
     </div>

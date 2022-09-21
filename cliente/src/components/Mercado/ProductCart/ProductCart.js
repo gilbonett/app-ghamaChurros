@@ -1,11 +1,13 @@
-import React, { useContext } from "react";
-import CartContext from "../../context/cartContext";
-import "../ProductCart/ProductCart.css";
+import React, { useContext} from "react";
+import CartContext from "../../../context/cartContext";
+import "./ProductCart.css";
+
 
 
 export const ItemCart = ({ product }) => {
   /* Traemos del context las funciones para agregar y sacar productos del carrito */
   const { DeleteItemToCart, AddItemToCart } = useContext(CartContext);
+  
 
   /* Desestructuramos product */
   const {id} = product;
