@@ -72,23 +72,15 @@ export function Cadastro() {
                     <Card className="card0 border-0">
                         <Row className="d-flex">
                             <Col className="col-lg-6">
-                                <div className="card1 pb-5">
-                                    <Row>
-                                        <Image
-                                            src="/assets/logo2.png"
-                                            className="logor"
-                                        />
-                                    </Row>
-                                    <Row className="px-3 justify-content-center mt-4 mb-5 border-line">
+                                <div className="card1 pb-5 con" >
                                         <Image
                                             src="/assets/logo2.png"
                                             className="imager"
                                         />
-                                    </Row>
                                 </div>
                             </Col>
                             <Col className="col-lg-6">
-                                <Card className="card2 border-0 px-3 py-5">
+                                <Card className="card2 border-0 px-3 py-5 formlogin">
                                     <Row>
                                         <h5>Cadastrar</h5>
                                     </Row>
@@ -107,7 +99,7 @@ export function Cadastro() {
                                                     className=""
                                                     id="exampleInputFname"
                                                     aria-describedby="emailHelp"
-                                                    placeholder="Enter your first name"
+                                                    placeholder="Nome"
                                                     {...register("fname")}
                                                     required
                                                 />
@@ -133,7 +125,7 @@ export function Cadastro() {
                                                 <Form.Control
                                                     type="email"
                                                     {...register("email")}
-                                                    placeholder="Enter a valid email address"
+                                                    placeholder="Email"
                                                     required
                                                 />
 
@@ -158,7 +150,7 @@ export function Cadastro() {
                                                 <Form.Control
                                                     type="password"
                                                     {...register("password")}
-                                                    placeholder="Enter password"
+                                                    placeholder="Senha"
                                                     required
                                                 />
 

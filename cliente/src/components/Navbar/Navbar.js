@@ -12,14 +12,21 @@ const Navbar = () => {
             />
       <div className='nav-items'>
         <a href="/cardapio">Cardapio</a>
-        <a href="/pedidos">Orders</a>
+        <a href="/pedidos">Pedidos</a>
         <a href="/comentario">Comentarios</a>
         <a href="/Contato">Contato</a>
        </div>
+       <div  >
+        <a href="/logout" className="text-danger">Sair</a>
+        
+       </div>
     </div>
+
+    
 
 );
 
 };
 
 export default Navbar;
+

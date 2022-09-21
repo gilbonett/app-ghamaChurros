@@ -1,3 +1,4 @@
+
 body {
     font-family: "Varela Round", sans-serif;
     color: #000;
@@ -7,25 +8,29 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg-image{
+    background-color: #FFF159;
+}
+
 .card0 {
     box-shadow: 0px 4px 8px 0px #757575;
     border-radius: 0px;
+}
+
+.con{
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card2 {
     margin: 0px 40px;
 }
 
-.logor {
-    width: 60px;
-    height: 60px;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
 .imager {
-    width: 400px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 5px;
 }
 
@@ -118,16 +123,24 @@ a {
     background-color: #1a237e;
 }
 
+.formlogin {
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media screen and (max-width: 991px) {
-    .logor {
-        margin-left: 0px;
-    }
+   
 
     .imager {
-        width: 300px;
-        height: 220px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 280px;
+    height: 250px;
     }
 
+    
     .border-line {
         border-right: none;
     }
@@ -136,5 +149,49 @@ a {
         border-top: 1px solid #eeeeee !important;
         margin: 0px 15px;
     }
+
+    .con{
+        padding-top: 80px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
+
+@media screen and (max-width: 1200px) {
+    .imager {
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 280px;
+        height: 250px;
+        }
+    
+        
+        .border-line {
+            border-right: none;
+        }
+    
+        .card2 {
+            border-top: 1px solid #eeeeee !important;
+            margin: 0px 15px;
+        }
+    
+        .con{
+            padding-top: 80px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .formlogin {
+            margin-right: 100px;
+            margin-top: 80px;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+    
+
 

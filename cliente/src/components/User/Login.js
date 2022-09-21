@@ -31,7 +31,6 @@ function LogIN() {
     const {
         register,
         handleSubmit,
-        formState: { errors },
     } = useForm({
         resolver: yupResolver(LoginSchema),
     });
@@ -82,21 +81,16 @@ function LogIN() {
                     <Card className="card0 border-0">
                         <Row className="d-flex">
                             <Col className="col-lg-6">
-                                <div className="card1 pb-5">
-                                    <Row>
+                                <div className="card1 pb-5 con">
                                         <Image
-                                            src=".././images/cc.png"
-                                            className="logo"/>
-                                    </Row>
-                                    <Row className="px-3 justify-content-center mt-4 mb-5 border-line">
-                                        <Image
-                                            src=".././images/cc.png"
-                                            className="image"/>
-                                    </Row>
+                                            src="/assets/logo2.png"
+                                            className="imager"/>
+
                                 </div>
                             </Col>
                             <Col className="col-lg-6">
                                 <Card className="card2 border-0 px-4 py-5 formlogin">
+                                <h5>Login</h5>
                                     <Form   onSubmit={handleSubmit(onSubmit)}>
                                         <Row className="px-3">
                                             <Form.Label className="mb-1">
@@ -108,13 +102,9 @@ function LogIN() {
                                                 className="mb-1"
                                                 type="text"
                                                 {...register("email")}
-                                                placeholder="Enter a valid email id or user name"
+                                                placeholder="Email"
                                                 required />
-                                            <Col>
-                                                <small className="form-text text-right text-danger font-italic mb-1">
-                                                    {errors.email?.message}
-                                                </small>
-                                            </Col>
+                                           
                                         </Row>
                                         <Row className="px-3">
                                             <Form.Label className="mb-1">
@@ -126,11 +116,9 @@ function LogIN() {
                                                 className="mb-2"
                                                 type="password"
                                                 {...register("password")}
-                                                placeholder="Enter password"
+                                                placeholder="Senha"
                                                 required/>
-                                            <small className="form-text text-danger font-italic mb-1">
-                                                {errors.password?.message}
-                                            </small>
+                                           
                                         </Row>
                                         <Row className="px-3 mb-4">
                                             <a
@@ -154,7 +142,7 @@ function LogIN() {
                                         <small className="font-weight-bold">
                                             Não tem conta?{" "}
                                             <Link
-                                                to="/signup"
+                                                to="/cadastro"
                                                 className="text-warning">
                                                 Cadastro
                                             </Link>
