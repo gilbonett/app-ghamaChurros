@@ -3,7 +3,8 @@ import Mercado from "../Mercado/Mercado";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ListOrder from "../Order/ListOrder";
 import ListaComentarios from "../Comentario/ListaComentarios";
-import Cadastro from "../User/Register";
+import Cadastro from "../User/Cadastro";
+import LogIN from "../User/Login";
 
 
 const Home = () => {
@@ -11,8 +12,9 @@ const Home = () => {
     <div> 
       <Router>
     <Routes>
-        <Route path="/registro" element={<Cadastro />} />
-        <Route path="/" element={<Mercado />} />
+        <Route path="/" element={<LogIN/>} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/cardapio" element={<Mercado />} />
         <Route path="/listorder" element={<ListOrder />} />
         <Route path="/comentario" element={<ListaComentarios />} />
     </Routes>

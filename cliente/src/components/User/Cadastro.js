@@ -16,7 +16,7 @@ import axios from "axios";
 import { useNavigate } from "react-router";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "../User/Register.css"
+import "../User/User.css"
 
 const SignSchema = Yup.object()
     .shape({

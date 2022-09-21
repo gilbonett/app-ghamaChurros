@@ -76,6 +76,15 @@
     margin-right: 80px;
   }
   
+  .w-100 {
+    height: 280px;
+  }
+
+  .carousel-caption img{
+    width: 80px;
+    height: 80px;
+  }
+
   .Tittle {
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(239, 16, 146);

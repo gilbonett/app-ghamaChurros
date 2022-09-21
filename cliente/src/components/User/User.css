@@ -116,7 +116,6 @@ a {
 .bg-blue {
     color: #fff;
     background-color: #1a237e;
-    /* background-color: lightsalmon; */
 }
 
 @media screen and (max-width: 991px) {
@@ -138,3 +137,4 @@ a {
         margin: 0px 15px;
     }
 }
+

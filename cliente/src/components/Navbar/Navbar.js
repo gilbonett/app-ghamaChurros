@@ -11,12 +11,11 @@ const Navbar = () => {
               alt="logo agenda"
             />
       <div className='nav-items'>
-        <a href="/">Mercado</a>
+        <a href="/cardapio">Cardapio</a>
+        <a href="/pedidos">Orders</a>
         <a href="/comentario">Comentarios</a>
-        <a href="/listorder">Orders</a>
         <a href="/Contato">Contato</a>
        </div>
-      
     </div>
 
 );
