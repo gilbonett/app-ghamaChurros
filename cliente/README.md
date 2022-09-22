@@ -1,3 +1,4 @@
+
 <img src="/assets/Logo4.png" height="60" width="60" target="_blank" alt="Logo"/>
 
 <h1 align="center">
@@ -78,8 +79,11 @@ Execute a aplicação en node
 <h2>Node.js</h2>
 <a href="https://nodejs.org/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="60" width="60" target="_blank"></a>
 
+<a href="https://expressjs.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="60" width="60" target="_blank"></a>
+
+https://expressjs.com/
 <h2>TypeScrip</h2>
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.icons8.com/color/452/typescript.png" height="60" width="60" target="_blank"></a>
+<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://miro.medium.com/max/1051/1*vHw6ENUfu71KHiyTm0BtUA.png" height="60" width="60" target="_blank"></a>
 
 <h2>MongoDB</h2>
 <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://play-lh.googleusercontent.com/IzEj9Owgf7-Y6HcSkdbUFbgUXuHcdjzA2PHE1D2ylCHNaxG7t0hGxB3ck_K2QJC9tQ=w240-h480-rw" height="60" width="60" target="_blank"></a>
@@ -89,7 +93,9 @@ Execute a aplicação en node
 
 <h2 id= "#Des">Desenvolvedores</h2>
 
-Feito por Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
+Feito por 
+
+Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
 
 Lenny :wave: [Entre em contato!](https://www.linkedin.com/in/lenny-marians-lucena-torres-431088198/)
 
