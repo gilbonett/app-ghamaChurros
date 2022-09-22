@@ -10,8 +10,7 @@ router.get('/todos', async (req, res) => {
   try {
 
     const products = await Item.find()
-
-    return res.send({ products })
+         res.json( products )
 
   } catch (err) {
     return res.status(400).send({ error: 'Erro loading products'})

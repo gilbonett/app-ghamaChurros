@@ -12,13 +12,14 @@ function Products  (){
 const URL = "http://localhost:8000/products/todos"
 const [item, setItem] = useState([])
 
-useEffect(() => {
+
+/* useEffect(() => {
   axios.get(URL).then(res =>{
     console.log(res.data.products)
   }).catch(err => {
     console.log (err)
   })
-}, []);
+}, []); */
 
 
 
@@ -26,39 +27,32 @@ useEffect(() => {
 
 
 
-/* const getData = async () => {
-  const response = await axios.get(URL);
-  return console.log(response);
+ const getData = async () => {
+  const res = await axios.get(URL)
+  setItem(res.data);
 }
 
-
 useEffect(() => {
-  getData().then((response) => {
-      setItem(response.data);
-  })
-},[setItem])
-  */
+  getData()
+  },[])
 
   return (
     <div className="productsMenu">
-      {item.map((products , _id) => {
-        return (
-          <article key={_id} className="products">
+      {item.map(product =>(
+          <article key={product._id} className="products">
             <div className="product-info">
-            <div className="imgCard"><img src={products.img} alt={products.name} /></div>
+            <div className="imgCard"><img src={product.img} alt={product.name} /></div>
               <section className="title-descricao">
-                <h2 className="title">{products.name}</h2>
-                <h6 className="product-text">{products.description}</h6>
+                <h2 className="title">{product.name}</h2>
+                <h6 className="product-text">{product.description}</h6>
               </section>
               <div className="btn-price">
-              <h6 className="price">${products.price}</h6>
-              <button className="btn btn-success adicionar" onClick={() => AddItemToCart(products)}>Adicionar</button>
+              <h6 className="price">${product.price}</h6>
+              <button className="btn btn-success adicionar" onClick={() => AddItemToCart(product)}>Adicionar</button>
               </div>
             </div>
           </article>
-
-        );
-      })}
+      ))}
     </div>
   );
 };
