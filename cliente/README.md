@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Logo" src="/assets/Logo4.png />
+    <br>
+    GamaChurros
+    
+</hi>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Creação de Loja de cardapio digital  com React</h1>
 
-## Available Scripts
+<p align="justify">A Loja de cardapio digital fue desenvolvida em React, esta aplicação foi creada para que o usuario posa interargir, a interação com API REST foi com Axios que é um cliente http baseado promesas em ou que permite aproveitar o assync e await de Javascript para obter um codigo mais assincrono e legivel</p>
 
-In the project directory, you can run:
+<h2 align="center"> 🚀 Em construção...  🚧</h2>
 
-### `npm start`
+<h2>💻 Funcionalidades</h2>
+<div>
+<p>Funcionalidade 1: Interagir con API REST usando AXIOS em React</p> 
+<p>Funcionalidade 2: Realizar solicitudes GET para listar dados de API Fake</p> 
+<p>Funcionalidade 3: Realizar solicitudes POST para cadastrar novos contatos</p> 
+<p>Funcionalidade 4: Realizar solicitudes PUT para Modificar datos de contato</p> 
+<p>Funcionalidade 5: Realizar solicitudes DELETE para remover datos de contato</p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2> 📑Pre-Requisitos:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Antes de começar você vai precisar ter instalado em sua maquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).  Alem disto é bom ter um editor para trabalhar com o codigo como [VSCode](https://code.visualstudio.com/).
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone este repositorio
+```sh
+ <https://github.com/gilbonett/app-ghamaChurros>
+ ```
 
-### `npm run build`
+ Acesse a pasta do projeto ao terminal
+```sh
+ cd GhamaChurros
+ ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+instale as dependencias
+```sh
+npm install
+ ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Execute a aplicação en node
+ ```sh
+ npm start
+  ```
+ O servidor iniciara na porta:3000 - acesse <http://localhost:3000>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h2> 🚀 Tecnologias:</h2>
+🔨As seguintes ferramentas foram usadas na creação do projeto:
+-[Node.js](https://nodejs.org/en/).
+-[React](https://pt-br.reactjs.org/).
+-[TypeScript](https://www.typescriptlang.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feito por Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Lenny :wave: [Entre em contato!](https://www.linkedin.com/in/lenny-marians-lucena-torres-431088198/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Samil :wave: [Entre em contato!](https://www.linkedin.com/in/arthurpc03/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Boaz :wave: [Entre em contato!](https://www.linkedin.com/in/boaz-destin-ab9561221/)
