@@ -7,45 +7,36 @@ import { useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2';
 
 const Cart = () => {
-  /* Creamos 2 estados, uno para ver si el carrito esta abierto o no 
-  y otro para obtener la cantidad de productos que tenemos en el carrito */
+  
   const [cartOpen, setCartOpen] = useState(false);
   const [productsLength, setProductsLength] = useState(0);
 
   const navigate = useNavigate()
 
-  /* Traemos del context los productos del carrito */
+ 
   const { cartItems} = useContext(CartContext);
 
-  /* Cada vez que se modifica el carrito, actualizamos la cantidad de productos */
+  
   useEffect(() => {
     setProductsLength(
       cartItems.reduce((previous, current) => previous + current.amount, 0)
     );
   }, [cartItems]);
  
-  /* Obtenemos el precio total */
+  
   const total = cartItems.reduce(
     (previous, current) => previous + current.amount * current.price,
     0
   );
 
-   
-    const productosOrder = cartItems.map(function(item, i){
-        return item.title;
-        }
-        )
-
-
   const onSubmit = () => {
     let un = JSON.parse(localStorage.getItem("user"));
     let checkout = {
-        produtos: productosOrder,
-        email: un.email,
-        amount: productsLength,
-        total: total}
+        emailorder: un.email,
+        amountorder: productsLength,
+        totalorder: total}
     axios
-        .post("http://localhost:3000/order", checkout)
+        .post("http://localhost:8000/orders/create-order", checkout)
         .then((res) => {
             if (res.status === 201) {
               Swal.fire(

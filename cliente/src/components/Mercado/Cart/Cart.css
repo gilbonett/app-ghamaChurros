@@ -4,7 +4,7 @@
     position: absolute;
     width: 150px;
     height: max-content;
-   /*  opacity: 0.5; */
+    opacity: 0.5;
     background-color: #FFF;
   }
   

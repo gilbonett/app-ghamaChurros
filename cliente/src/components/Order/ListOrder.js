@@ -5,7 +5,7 @@ import axios from "axios";
 export default function ListOrder() {
     const [order, setOrder] = useState([]);
     useEffect(() => {
-        axios.get("http://localhost:3000/order").then((res) => {
+        axios.get("http://localhost:8000/orders/todos").then((res) => {
             setOrder(res.data);
         });
     }, []);
@@ -20,7 +20,6 @@ export default function ListOrder() {
                     <thead>
                         <tr>
                             <th>Pedido.Nr</th>
-                            <th>Produtos</th>
                             <th>Email</th>
                             <th>Cantidad</th>
                             <th>Total</th>
@@ -31,10 +30,9 @@ export default function ListOrder() {
                             return (
                                 <tr key={index}>
                                     <td>{index + 1}</td>
-                                    <td>{order.produtos + " "}</td>
-                                    <td>{order.email}</td>
-                                    <td>{order.amount}</td>
-                                    <td>{order.total +  " R$"} </td>
+                                    <td>{order.emailorder}</td>
+                                    <td>{order.amountorder}</td>
+                                    <td>{order.totalorder +  " R$"} </td>
                                 </tr>
                             );
                         })}

@@ -25,9 +25,6 @@ function RedeSocial () {
       </div>
     </div>
 </div>
-
-
-
     );
 
 }
