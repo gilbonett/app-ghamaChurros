@@ -1,8 +1,8 @@
-<img alt="Logo" src="/assets/Logo4.png />
+<img src="/assets/Logo4.png" height="60" width="60" target="_blank" alt="Logo"/>
 
 <h1 align="center">
     <br>
-    GamaChurros
+    GhamaChurros
 </h1>
 
 <p align="center">
@@ -19,27 +19,10 @@
 
 <a href="#Tec">Tecnologias</a>
 
-<a>Acesso ao projeto</a>
-
-<a>Abrir e rodar o projeto</a>
-
 <a href="#Des">Desenvolvedores</a>
 
 
-<!-- Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão) -->
 
 
 <h2 id= Descrip>Descrição do projeto</h2>
@@ -88,12 +71,23 @@ Execute a aplicação en node
 
 <h2 id= Tec> 🚀 Tecnologias:</h2>
 🔨As seguintes ferramentas foram usadas na creação do projeto:
--[Node.js](https://nodejs.org/en/).
--[React](https://pt-br.reactjs.org/).
--[TypeScript](https://www.typescriptlang.org/)
+
+<h2>React</h2>
+ <a href="https://pt-br.reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="60" width="60" target="_blank"></a>
+
+<h2>Node.js</h2>
+<a href="https://nodejs.org/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="60" width="60" target="_blank"></a>
+
+<h2>TypeScrip</h2>
+<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.icons8.com/color/452/typescript.png" height="60" width="60" target="_blank"></a>
+
+<h2>MongoDB</h2>
+<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://play-lh.googleusercontent.com/IzEj9Owgf7-Y6HcSkdbUFbgUXuHcdjzA2PHE1D2ylCHNaxG7t0hGxB3ck_K2QJC9tQ=w240-h480-rw" height="60" width="60" target="_blank"></a>
 
 
-<h2 id= href="#Des">Desenvolvedores</h2>
+
+
+<h2 id= "#Des">Desenvolvedores</h2>
 
 Feito por Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
 
