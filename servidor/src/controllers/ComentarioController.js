@@ -18,4 +18,16 @@ router.post('/create', async (req, res) => {
     }
   });
 
+
+  router.get('/todos', async (req, res) => {
+    try {
+  
+      const comentario = await Comentario.find()
+           res.json( comentario )
+  
+    } catch (err) {
+      return res.status(400).send({ error: 'Erro loading comments'})
+    }
+  }); 
+
   module.exports = app => app.use('/comment', router);

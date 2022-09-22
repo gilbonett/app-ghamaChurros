@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const ComentarioSchema = new mongoose.Schema({
-    user: {
+    usuario: {
       type: String,
       require: true,
     },

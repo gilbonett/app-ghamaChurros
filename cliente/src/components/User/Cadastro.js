@@ -57,7 +57,7 @@ export function Cadastro() {
                         autoClose: 5000,
                         theme: "dark",
                     });
-                }
+                }navigate("/")
             });
         } 
     };

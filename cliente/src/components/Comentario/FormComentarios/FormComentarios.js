@@ -8,11 +8,9 @@ import "./FormComentarios.css"
 
 function FormComentarios () {
   
-   
-   const [datos, setDatos] = useState ({nome:"", comentario:""})
+   const [datos, setDatos] = useState ({usuario:"", comentario:""})
 
-
-    const URL = "http://localhost:3000/comentario"
+    const URL = "http://localhost:8000/comment/create"
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -30,7 +28,6 @@ function FormComentarios () {
 
         }
     }
-
         const handleChange = ({target}) => {
             setDatos({
                 ...datos,
@@ -39,7 +36,6 @@ function FormComentarios () {
         }
 
 return (
-  
 <div className='container'>
     <div className= 'row comentarios'>
      <div className='col-5'>
@@ -49,7 +45,7 @@ return (
             placeholder='Nome'
             onChange={handleChange}
             type= 'text' 
-            value= {datos.nome} 
+            value= {datos.usuario} 
             className="form-control mb-3"
             required
             />

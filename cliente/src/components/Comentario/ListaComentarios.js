@@ -6,7 +6,7 @@ import { Container, Table } from "react-bootstrap";
   const [comentario, setComentarios] = useState ([])
 
   const cargarComentarios = async () => { 
-    axios.get('http://localhost:3000/comentario') 
+    axios.get('http://localhost:8000/comment/todos') 
    .then((res)=> {
     setComentarios(res.data);
    })
@@ -36,7 +36,7 @@ comentario.map((comentario, index) => {
                         return (
                             <tr key={index}>
                                 <td>{index + 1}</td>
-                                <td>{comentario.nome}</td>
+                                <td>{comentario.usuario}</td>
                                 <td>{comentario.comentario}</td>
                             </tr>
                         );
