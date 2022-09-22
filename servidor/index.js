@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({ extended: false}));
 require('./src/controllers/index')(app)
 
 mongoose
-  .connect('mongodb+srv://bonett:toti16@cluster0.nf0wacg.mongodb.net/test')
+  .connect('mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.0')
   .then(() => {
     console.log('Conectou ao banco!')
-    app.listen(3500)
+    app.listen(8000)
   })
   .catch((err) => console.log(err))
