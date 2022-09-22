@@ -1,5 +1,8 @@
-
-<img src="/assets/Logo4.png" height="60" width="60" target="_blank" alt="Logo"/>
+<div align= "center">
+<img src= "
+https://user-images.githubusercontent.com/105180420/191828557-2342a054-8433-40c0-80d3-698e44d56796.png
+" width="230px"/>
+</div> 
 
 <h1 align="center">
     <br>
