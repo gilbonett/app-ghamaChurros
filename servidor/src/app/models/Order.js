@@ -2,31 +2,17 @@ const mongoose = require('mongoose')
 
 
 const OrderSchema = new mongoose.Schema({
-  user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'user', 
+  emailorder: {
+    type: String,
     require: true
   },
-  total: {
+  totalorder: {
     type: Number,
-    minimum: 0,
     require: true
   },
-  produtos: [{
-    product: {  
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'product',
-    require: true,
-    },
-  }],
-  amount: {
+  amountorder: {
     type: Number,
-    minimum: 0,
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
+  }
 });
 
 const Order = mongoose.model('order', OrderSchema);

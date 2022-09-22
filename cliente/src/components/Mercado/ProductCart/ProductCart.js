@@ -2,15 +2,12 @@ import React, { useContext} from "react";
 import CartContext from "../../../context/cartContext";
 import "./ProductCart.css";
 
-
-
 export const ItemCart = ({ product }) => {
-  /* Traemos del context las funciones para agregar y sacar productos del carrito */
+  
   const { DeleteItemToCart, AddItemToCart } = useContext(CartContext);
   
 
-  /* Desestructuramos product */
-  const {id} = product;
+  const {_id} = product;
   return (
     <div className='cartItem'>
       <div className='dataContainer'>
@@ -18,7 +15,7 @@ export const ItemCart = ({ product }) => {
           <p>{product.name}</p>
           <div className='buttons'>
             <button onClick={() => AddItemToCart(product)}>Incluir</button>
-            <button onClick={() => DeleteItemToCart(id)}>Retirar</button>
+            <button onClick={() => DeleteItemToCart(_id)}>Retirar</button>
           </div>
         </div>
         <div className='right'>

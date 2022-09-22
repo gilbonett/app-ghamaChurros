@@ -4,17 +4,16 @@ const Order = require ('../app/models/Order')
 
 const router = express.Router();
 
-router.get('/', async (req, res) => {
+router.get('/todos', async (req, res) => {
   try {
 
-    const orders = await Order.find().populate('user');
-
-    return res.send({ orders })
+    const order = await Order.find()
+         res.json( order )
 
   } catch (err) {
     return res.status(400).send({ error: 'Erro loading orders'})
   }
-});
+}); 
 
 router.get('/:orderId', async (req, res) => {
   try {

@@ -1,30 +1,15 @@
 import axios from "axios";
 import React, {useContext, useEffect, useState} from "react";
 import CartContext from "../../../context/cartContext";
-//import { ProductsData } from "../Data";
 import "./Menu.css";
 
 
 function Products  (){
-  /* Traemos del context la funcion para agregar un producto */
+ 
   const { AddItemToCart } = useContext(CartContext);
 
 const URL = "http://localhost:8000/products/todos"
 const [item, setItem] = useState([])
-
-
-/* useEffect(() => {
-  axios.get(URL).then(res =>{
-    console.log(res.data.products)
-  }).catch(err => {
-    console.log (err)
-  })
-}, []); */
-
-
-
-//Mapear list de usuarios
-
 
 
  const getData = async () => {
