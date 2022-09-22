@@ -65,19 +65,6 @@
 
 }
 
-
-@media screen and (min-width: 768px) {
-  .products {
-    grid-template-columns: 225px 1fr;
-    gap: 0 1.25rem;
-    max-width: 40rem;
-    background-color: #fff;
-    padding: 30px;
-  }
-  
-}
-
-
 @media screen and (min-width: 1024px) {
    
   .title {

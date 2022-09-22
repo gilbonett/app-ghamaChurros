@@ -53,10 +53,7 @@ const Cart = () => {
             )
            localStorage.removeItem("cartProducts");
             }
-        
               navigate("/pedidos");
-        
-          
         });
 };
 

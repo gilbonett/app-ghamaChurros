@@ -42,9 +42,9 @@ export function Cadastro() {
     const onSubmit = (data) => {
         //console.warn(data);
         if (data) {
-            axios.post("http://localhost:3000/user", data).then((res) => {
+            axios.post("http://localhost:8000/user/cadastro", data).then((res) => {
                 //alert(res.data.message);
-                if (res.data.flg === 1) {
+                if (res.data.flag === 1) {
                     toast.success(`${res.data.message}`, {
                         position: "top-left",
                         autoClose: 5000,
@@ -57,7 +57,7 @@ export function Cadastro() {
                         autoClose: 5000,
                         theme: "dark",
                     });
-                }
+                }navigate("/")
             });
         } 
     };

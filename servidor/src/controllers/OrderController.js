@@ -28,14 +28,14 @@ router.get('/:orderId', async (req, res) => {
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/create-order', async (req, res) => {
     try {
       const order = await Order.create({ ...req.body, user: req.orderId});
   
       return res.send({ order });
       
     } catch (err) {
-      return res.status(400).send({ error: 'Error creating new product' });
+      return res.status(400).send({ error: 'Error creating new order' });
     }
   });
   

@@ -4,27 +4,28 @@ const mongoose = require('mongoose')
 const OrderSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'user',  /* TODO */
+    ref: 'user', 
     require: true
   },
-  total_price: {
+  total: {
     type: Number,
     minimum: 0,
     require: true
   },
-  order_detail: {
-    product: {   /* TODO PERGUNTA fazendo a relação dos dados me parece confuso*/
+  produtos: [{
+    product: {  
     type: mongoose.Schema.Types.ObjectId,
     ref: 'product',
     require: true,
     },
-  quantity: {
+  }],
+  amount: {
     type: Number,
     minimum: 0,
   },
-  price: {
-    type: Number,
-    },
+  createdAt: {
+    type: Date,
+    default: Date.now,
   },
 });
 
