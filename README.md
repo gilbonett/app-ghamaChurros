@@ -1,7 +1,5 @@
 <div align= "center">
-<img src= "
-https://user-images.githubusercontent.com/105180420/191828557-2342a054-8433-40c0-80d3-698e44d56796.png
-" width="230px"/>
+<img src= "https://user-images.githubusercontent.com/105180420/191828557-2342a054-8433-40c0-80d3-698e44d56796.png" width="230px"/>
 </div> 
 
 <h1 align="center">
