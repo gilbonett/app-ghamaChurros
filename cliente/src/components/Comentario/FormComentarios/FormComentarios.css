@@ -1,17 +1,18 @@
 
 
-body {
-  background: #f2f2f2;
-  font-family: sans-serif;
-}
+
 
 .container {
-  margin-top: 30px;
-  margin-right: 50px;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 10px;
 }
 
-.comentarios {
-  margin: 20px 0;
+.comentario {
+  margin-top: 5px;
+  margin-bottom: 20;
+  padding: 60px;
+  background-color: #FFF159;
 }
 
 .form-comentarios textarea {
@@ -20,7 +21,7 @@ body {
   min-width: 100%;
   min-height: 85px;
   max-height: 300px;
-  padding: 10px;
+  padding: 5px;
   font-family: sans-serif;
   line-height: 30px;
   margin-bottom: 15px;
@@ -36,25 +37,5 @@ body {
 }
 
 .mb-4 {
-  height: 84px;
+  height: 20px;
 }
-
-
-.media{
-  border-top: 1px solid #bfbfbf;
-  padding-top: 20px;
-}
-
-.media img{
-  margin-right: 20px;
-}
-
-.media .comentario{
-  margin-top: 10px;
-}
-
-/* .media .buttons a{
-  color: #acacac;
-  font-size: 14px;
-  margin-left: 20px;
-} */ 
