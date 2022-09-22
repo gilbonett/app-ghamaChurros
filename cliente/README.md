@@ -2,12 +2,12 @@
     <img alt="Logo" src="/assets/Logo4.png />
     <br>
     GamaChurros
-    
+
 </hi>
 
 <h1 align="center"> Creação de Loja de cardapio digital  com React</h1>
 
-<p align="justify">A Loja de cardapio digital fue desenvolvida em React, esta aplicação foi creada para que o usuario posa interargir, a interação com API REST foi com Axios que é um cliente http baseado promesas em ou que permite aproveitar o assync e await de Javascript para obter um codigo mais assincrono e legivel</p>
+<p align="justify">A Loja de cardapio digital fue desenvolvida em React, esta aplicação foi creada para que o usuario possa comprar com mais facilidade desde a comodidade do qualquer lugar onde se encontre, tambem consegue-se cadastrar para que em uma proxima compra seja mais rapido seu processo.</p>
 
 <h2 align="center"> 🚀 Em construção...  🚧</h2>
 
@@ -58,6 +58,6 @@ Feito por Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett
 
 Lenny :wave: [Entre em contato!](https://www.linkedin.com/in/lenny-marians-lucena-torres-431088198/)
 
-Samil :wave: [Entre em contato!](https://www.linkedin.com/in/arthurpc03/)
+Samil :wave: [Entre em contato!](https://www.linkedin.com/in/samil-moret-86279a60/)
 
 Boaz :wave: [Entre em contato!](https://www.linkedin.com/in/boaz-destin-ab9561221/)
