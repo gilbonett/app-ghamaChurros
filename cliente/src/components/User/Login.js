@@ -39,7 +39,7 @@ function LogIN() {
     const onSubmit = (data) => {
         //console.warn(data);
         if (data) {
-            axios.post("http://localhost:3000/user", data).then((res) => {
+            axios.post("http://localhost:8000/user/cadastro", data).then((res) => {
                 //alert(res.data.message);
              
                 if (res.status){

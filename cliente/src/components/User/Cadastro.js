@@ -42,7 +42,7 @@ export function Cadastro() {
     const onSubmit = (data) => {
         //console.warn(data);
         if (data) {
-            axios.post("http://localhost:3500/cadastro", data).then((res) => {
+            axios.post("http://localhost:8000/user/cadastro", data).then((res) => {
                 //alert(res.data.message);
                 if (res.data.flag === 1) {
                     toast.success(`${res.data.message}`, {
