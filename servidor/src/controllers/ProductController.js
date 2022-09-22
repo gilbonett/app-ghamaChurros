@@ -1,27 +1,27 @@
 const express = require('express');
 
-const Product = require ('../app/models/Product')
+const Item = require ('../app/models/Product')
 
 const router = express.Router();
 
 
 
-router.get('/', async (req, res) => {
+router.get('/todos', async (req, res) => {
   try {
 
-    const products = await Product.find()
-
-    return res.send({ products })
+    const products = await Item.find()
+         res.json( products )
 
   } catch (err) {
     return res.status(400).send({ error: 'Erro loading products'})
   }
-});
+}); 
+
 
 router.get('/:producId', async (req, res) => {
     try {
   
-      const product = await Product.findById(req.params.productId).populate('user');
+      const product = await Item.findById(req.params.productId).populate('user');
   
       return res.send({ product })
   
@@ -31,9 +31,9 @@ router.get('/:producId', async (req, res) => {
   });
   
   
-  router.post('/', async (req, res) => {
+  router.post('/create-product', async (req, res) => {
     try {
-      const product = await Product.create({ ...req.body, user: req.userId});
+      const product = await Item.create({ ...req.body, user: req.userId});
   
       return res.send({ product });
       

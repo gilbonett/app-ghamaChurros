@@ -27,14 +27,11 @@
     }
   ],
   "item": [
-    {
-      "id": "1",
-      "title": "Churros Arequipe",
-      "category": "churros",
-      "amount": "0",
+    { "name": "Churros Arequipe",
+      "description": "Churros con topping de doce de leite",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg",
       "price": "16",
-      "descricao": "Churros con topping de doce de leite",
-      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+      "amount": "0"
     },
     {
       "id": "2",
@@ -183,6 +180,10 @@
     },
     {
       "produtos": [
+        "CocaCola",
+        "Churros de Fresa",
+        "Churros de Chocolate",
+        "Fanta",
         "Churros Arequipe",
         "Churros Nutella",
         "CocaCola",
@@ -198,12 +199,35 @@
       "produtos": [
         "Churros Arequipe",
         "Churros Nutella",
-        "CocaCola"
+        "CocaCola",
+        "Churros de Chocolate",
+        "Churros de Fresa"
       ],
       "email": "gilbonett@gmail.com",
       "amount": 3,
       "total": 34,
       "id": "XJCLAeK"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe"
+      ],
+      "email": "gilbonett@gmail.com",
+      "amount": 4,
+      "total": 64,
+      "id": "Ub7Chjt"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola",
+        "Churros de Chocolate"
+      ],
+      "email": "gilbonett@gmail.com",
+      "amount": 4,
+      "total": 42,
+      "id": "IcZvUvx"
     }
   ],
   "user": [
@@ -259,6 +283,41 @@
       "email": "gilbonett@gmail.com",
       "senha": "123456789",
       "id": 10
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "11091025",
+      "id": 11
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "11091025",
+      "id": 12
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "11091025",
+      "id": 13
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "25028787",
+      "id": 14
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "25021815",
+      "id": 15
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "11091025",
+      "id": 16
+    },
+    {
+      "email": "gilbonett@gmail.com",
+      "senha": "11091025",
+      "id": 17
     }
   ]
 }

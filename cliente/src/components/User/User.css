@@ -18,7 +18,7 @@ body {
 }
 
 .con{
-    padding-top: 80px;
+    padding-top: 170px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .imager {
-    width: 250px;
+    width: 280px;
     height: 250px;
     border-radius: 5px;
 }
@@ -124,6 +124,7 @@ a {
 }
 
 .formlogin {
+    width: 50%;
     margin-top: 80px;
     align-items: center;
     justify-content: center;

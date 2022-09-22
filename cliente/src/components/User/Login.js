@@ -41,11 +41,11 @@ function LogIN() {
         if (data) {
             axios.post("http://localhost:3000/user", data).then((res) => {
                 //alert(res.data.message);
-                console.log(res.data.token);
-                if (res.data.userDet) {
+             
+                if (res.status){
                     localStorage.setItem(
                         "user",
-                        JSON.stringify(res.data.userDet)
+                        JSON.stringify(res.data)
                     );
                     toast.success(`${res.data.message}`, {
                         position: "top-left",
