@@ -39,12 +39,16 @@ function FormComentarios () {
         }
 
 return (
-  
-<div className='container'>
-    <div className= 'row  comentarios'>
-     <div className='col-8'>
-         <form  action=""   className='form-comentarios d-flex justify-content-end flex-wrap' onSubmit={handleSubmit}>
-         <input 
+
+    
+<div className='container-fluid comentario'>
+    <div className="row">
+      <div className=" col p-2">
+        <div className= 'row'>
+          <div className='col-6 offset-3'>
+           <form  action=""   className='form-comentarios d-flex justify-content-end flex-wrap' onSubmit={handleSubmit}>
+             <h2 className=" col-8">Comentarios</h2>
+            <input 
             name="nome"
             placeholder='Nome'
             onChange={handleChange}
@@ -64,11 +68,12 @@ return (
             required
             />
             <Button as="input" type= "submit" value="Comentar" />
-         </form> 
-         
+            </form> 
             </div>
-         </div> 
-     </div>
+            </div>
+        </div>
+    </div> 
+</div>
 
    )
 

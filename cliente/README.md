@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<img alt="Logo" src="/assets/Logo4.png />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <br>
+    GamaChurros
+</h1>
 
-## Available Scripts
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
-In the project directory, you can run:
+<h3>Tópicos</h3>
 
-### `npm start`
+<a href="#Descrip">Descrição do projeto</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="#Fun">Funcionalidades</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="#Pre">Pre-requisitos</a>
 
-### `npm test`
+<a href="#Tec">Tecnologias</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a>Acesso ao projeto</a>
 
-### `npm run build`
+<a>Abrir e rodar o projeto</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a href="#Des">Desenvolvedores</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Índice 
 
-### `npm run eject`
+* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Badges](#badges)
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Pessoas Contribuidoras](#pessoas-contribuidoras)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Licença](#licença)
+* [Conclusão](#conclusão) -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2 id= Descrip>Descrição do projeto</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3 align="center"> Creação de Loja de cardapio digital  com React</h3>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="justify">A Loja de cardapio digital fue desenvolvida em React, esta aplicação foi creada para que o usuario possa comprar com mais facilidade desde a comodidade do qualquer lugar onde se encontre, tambem consegue-se cadastrar para que em uma proxima compra seja mais rapido seu processo.</p>
 
-## Learn More
+<h2 align="center"> 🚀 Em construção...  🚧</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2 id= Fun>💻 Funcionalidades</h2>
+<div>
+<p>Funcionalidade 1: Interagir con API REST usando AXIOS em React</p> 
+<p>Funcionalidade 2: Realizar solicitudes GET para listar dados de API Fake</p> 
+<p>Funcionalidade 3: Realizar solicitudes POST para cadastrar novos contatos</p> 
+<p>Funcionalidade 4: Realizar solicitudes PUT para Modificar datos de contato</p> 
+<p>Funcionalidade 5: Realizar solicitudes DELETE para remover datos de contato</p>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id= Pre> 📑Pre-Requisitos:</h2>
 
-### Code Splitting
+Antes de começar você vai precisar ter instalado em sua maquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).  Alem disto é bom ter um editor para trabalhar com o codigo como [VSCode](https://code.visualstudio.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Clone este repositorio
+```sh
+ <https://github.com/gilbonett/app-ghamaChurros>
+ ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Acesse a pasta do projeto ao terminal
+```sh
+ cd GhamaChurros
+ ```
 
-### Making a Progressive Web App
+instale as dependencias
+```sh
+npm install
+ ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Execute a aplicação en node
+ ```sh
+ npm start
+  ```
+ O servidor iniciara na porta:3000 - acesse <http://localhost:3000>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<h2 id= Tec> 🚀 Tecnologias:</h2>
+🔨As seguintes ferramentas foram usadas na creação do projeto:
+-[Node.js](https://nodejs.org/en/).
+-[React](https://pt-br.reactjs.org/).
+-[TypeScript](https://www.typescriptlang.org/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<h2 id= href="#Des">Desenvolvedores</h2>
 
-### `npm run build` fails to minify
+Feito por Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lenny :wave: [Entre em contato!](https://www.linkedin.com/in/lenny-marians-lucena-torres-431088198/)
+
+Samil :wave: [Entre em contato!](https://www.linkedin.com/in/samil-moret-86279a60/)
+
+Boaz :wave: [Entre em contato!](https://www.linkedin.com/in/boaz-destin-ab9561221/)

@@ -1,27 +1,47 @@
-
+.form-TextoF{
+  text-align: center;
+  
+  }
 
 .TextoF {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
 .TextoF p {
   padding-bottom: 10px;
   color: #707070;
+  
 }
 
 .Final {
-  
-  margin-bottom: 50px;
-  align-items: center;
-  padding-left: 80px;
   font-family: Segoe UI;
+  padding: 40px;
+  background-color: #FFF159;
+
 }
 
 .TextoF img {
   margin-left: 10px;
-  margin-top: 8px;
+  margin-top: 20px;
 }
+
+.Logo-red-1{
+  margin-right: 10px;
+ 
+ }
+ 
+ .Logo-red-2{
+   margin-left: 5px;
+   margin-right: 5px;
+  
+  }
+ 
+  .Logo-red-3{
+   margin-left: 10px;
+  
+  } 
 
 @media (max-width:500px) {
 
