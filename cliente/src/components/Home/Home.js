@@ -1,16 +1,29 @@
 import React from "react";
-import Cart from "../Cart/Cart";
-/* import Footer from "../Footer/Footer";
-import IndividualIntervalsHeroImage from "../HeroImage/HeroImage";
-import Navbar from "../Navbar/Navbar"; */
-import Products from "../Products/Menu";
-import "./Home.css"
+import Mercado from "../Mercado/Mercado";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Cadastro from "../User/Cadastro";
+import LogIN from "../User/Login";
+import Pedidos from "../Order/Pedidos";
+import Footer from "../Footer/Footer";
+import LogOut from "../User/Logout";
+import Comentario from "../Comentario/Comentario";
+
 
 const Home = () => {
   return (
-    <div className="cep">
-          <Cart/>
-          <Products/>
+    <div> 
+      <Router>
+    <Routes>
+        <Route path="/" element={<LogIN/>} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/cardapio" element={<Mercado />} />
+        <Route path="/pedidos" element={<Pedidos />} />
+        <Route path="/comentario" element={<Comentario />} />
+        <Route path="/contato" element={<Footer/>} />
+        <Route path="/logout" element={<LogOut/>} />
+    </Routes>
+    </Router>
+         
     </div>
   );
 };

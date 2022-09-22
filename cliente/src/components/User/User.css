@@ -1,0 +1,197 @@
+
+body {
+    font-family: "Varela Round", sans-serif;
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #b0bec5;
+    background-repeat: no-repeat;
+}
+
+.bg-image{
+    background-color: #FFF159;
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+}
+
+.con{
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    margin: 0px 40px;
+}
+
+.imager {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.border-line {
+    border-right: 1px solid #eeeeee;
+}
+
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+
+.or {
+    width: 10%;
+    font-weight: bold;
+}
+
+.text-sm {
+    font-size: 14px !important;
+}
+
+::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+}
+
+:-ms-input-placeholder {
+    color: #bdbdbd;
+    font-weight: 300;
+}
+
+::-ms-input-placeholder {
+    color: #bdbdbd;
+    font-weight: 300;
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2c3e50;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304ffe;
+    outline-width: 0;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #1a237e;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #1a237e;
+}
+
+.formlogin {
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 991px) {
+   
+
+    .imager {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 280px;
+    height: 250px;
+    }
+
+    
+    .border-line {
+        border-right: none;
+    }
+
+    .card2 {
+        border-top: 1px solid #eeeeee !important;
+        margin: 0px 15px;
+    }
+
+    .con{
+        padding-top: 80px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .imager {
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 280px;
+        height: 250px;
+        }
+    
+        
+        .border-line {
+            border-right: none;
+        }
+    
+        .card2 {
+            border-top: 1px solid #eeeeee !important;
+            margin: 0px 15px;
+        }
+    
+        .con{
+            padding-top: 80px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .formlogin {
+            margin-right: 100px;
+            margin-top: 80px;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+    
+
+

@@ -4,7 +4,148 @@
       "id": 1,
       "nome": "Pedro",
       "comentario": "quiero comer churros"
+    },
+    {
+      "nome": "sssss",
+      "comentario": "23344",
+      "id": 2
+    },
+    {
+      "nome": "weyeyri",
+      "comentario": "12345",
+      "id": 3
+    },
+    {
+      "nome": "Samil",
+      "comentario": "Quiero churros",
+      "id": 4
+    },
+    {
+      "nome": "sdadadadaa",
+      "comentario": "cncncncnc",
+      "id": 5
+    },
+    {
+      "nome": "ddfgg",
+      "comentario": "sddff",
+      "id": 6
+    }
+  ],
+  "item": [
+    {
+      "id": "1",
+      "title": "Churros Arequipe",
+      "category": "churros",
+      "amount": "0",
+      "price": "16",
+      "descricao": "Churros con topping de doce de leite",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Churros Nutella",
+      "category": "churros",
+      "amount": "0",
+      "price": "14",
+      "descricao": "Churros con topping Nutella",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+    },
+    {
+      "id": "3",
+      "title": "CocaCola",
+      "category": "drinks",
+      "amount": "0",
+      "price": "4",
+      "descricao": "Refrigerante con Sabor a Coca",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Churros de Chocolate",
+      "category": "churros",
+      "amount": "0",
+      "price": "8",
+      "descricao": "Churros con topping de doce de leite",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Churros de Fresa",
+      "category": "churros",
+      "amount": "0",
+      "price": "10",
+      "descricao": "Churros con topping de doce de leite",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Fanta",
+      "category": "drinks",
+      "amount": "0",
+      "price": "4",
+      "descricao": "Refrigerante con Sabor a Fanta",
+      "img": "https://cooknenjoy.com/wp-content/uploads/2021/09/Churros-Facil-01-1536x1154.jpg"
+    }
+  ],
+  "order": [
+    {
+      "produtos": [
+        "Churros Nutella",
+        "Churros Arequipe",
+        "Churros Nutella"
+      ],
+      "amount": 3,
+      "total": 46,
+      "id": "GR3jyMZ"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola",
+        "Churros de Chocolate"
+      ],
+      "cantidad": 4,
+      "total": 42,
+      "id": "Y_y7Ts5"
+    },
+    {
+      "produtos": [],
+      "cantidad": 0,
+      "total": 0,
+      "id": "HspqHZY"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola"
+      ],
+      "cantidad": 3,
+      "total": 34,
+      "id": "pPpGWH9"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella"
+      ],
+      "cantidad": 2,
+      "total": 30,
+      "id": "V7ydneA"
+    },
+    {
+      "produtos": [
+        "Churros Arequipe",
+        "Churros Nutella",
+        "CocaCola",
+        "Churros de Chocolate",
+        "Churros de Fresa",
+        "Fanta"
+      ],
+      "cantidad": 13,
+      "total": 120,
+      "id": "dlfYFPG"
     }
   ]
- 
 }

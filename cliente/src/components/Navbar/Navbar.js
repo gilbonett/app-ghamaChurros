@@ -1,34 +1,32 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+ 
   
   return (
     <div className="Navbar">
-       <img
-              src="/assets/logo2.png"
-              width="40"
-              height="40"
-              className="d-inline-block align-top"
+       <img   src="/assets/logo4.png"
+              className="d-inline-block align-top imglogo"
               alt="logo agenda"
             />
-      <span className="nav-logo">GhamaChurros</span>
-      <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/Cardapio">Cardapio</a>n
+      <div className='nav-items'>
+        <a href="/cardapio">Cardapio</a>
+        <a href="/pedidos">Pedidos</a>
+        <a href="/comentario">Comentarios</a>
         <a href="/Contato">Contato</a>
-        <a href="/Comentarios">Comentarios</a>
        </div>
-     
-      <div className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <div className="bar"></div>
-      </div>
+       <div  >
+        <a href="/logout" className="text-danger">Sair</a>
+        
+       </div>
     </div>
+
+    
 
 );
 
 };
 
 export default Navbar;
+
