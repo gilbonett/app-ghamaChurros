@@ -17,14 +17,13 @@
 
 <a href="#Fun">Funcionalidades</a>
 
+<a href="#Car">Presentação</a>
+
 <a href="#Pre">Pre-requisitos</a>
 
 <a href="#Tec">Tecnologias</a>
 
 <a href="#Des">Desenvolvedores</a>
-
-
-
 
 
 <h2 id= Descrip>Descrição do projeto</h2>
@@ -37,12 +36,26 @@
 
 <h2 id= Fun>💻 Funcionalidades</h2>
 <div>
-<p>Funcionalidade 1: Interagir con API REST usando AXIOS em React</p> 
-<p>Funcionalidade 2: Realizar solicitudes GET para listar dados de API Fake</p> 
-<p>Funcionalidade 3: Realizar solicitudes POST para cadastrar novos contatos</p> 
-<p>Funcionalidade 4: Realizar solicitudes PUT para Modificar datos de contato</p> 
-<p>Funcionalidade 5: Realizar solicitudes DELETE para remover datos de contato</p>
+<p>Interagir con API REST usando AXIOS em React</p> 
+<p>Realizar solicitudes GET para listar dados de API conectada com Banco de Dados MongoDB</p> 
+<p>Se utilizo NodeJS para a conexão com o Banco de dados MongoDB</p> 
 </div>
+
+<h2 id= Car> Presentação</h2>
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/191954447-7146654d-fc71-4861-82cc-63a95f8cacfd.PNG" width="1000px"/>
+</div> 
+
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/191954435-89fb5bf3-0e07-474a-9300-9ce0a600d087.PNG" width="1000px"/>
+</div>
+
+<div align= "center">
+<img src= "https://user-images.githubusercontent.com/101142283/191954443-7ab55734-5911-4e68-9ab1-5b3bd6823dfc.PNG" width="1000px"/>
+</div>
+
+
+
 
 <h2 id= Pre> 📑Pre-Requisitos:</h2>
 
@@ -83,20 +96,14 @@ Execute a aplicação en React e Node
 <h2>Node.js</h2>
 <a href="https://nodejs.org/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="60" width="60" target="_blank"></a>
 
-<<<<<<< HEAD:cliente/README.md
 <h2>Expressjs</h2>
-<a href="https://expressjs.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="60" width="60" target="_blank"></a>
-=======
->>>>>>> aaa7583a59b3b0b015d26ba3040b4a4752f0589b:README.md
-
-<h2>TypeScrip</h2>
 <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://miro.medium.com/max/1051/1*vHw6ENUfu71KHiyTm0BtUA.png" height="60" width="60" target="_blank"></a>
 
 <h2>MongoDB</h2>
 <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://play-lh.googleusercontent.com/IzEj9Owgf7-Y6HcSkdbUFbgUXuHcdjzA2PHE1D2ylCHNaxG7t0hGxB3ck_K2QJC9tQ=w240-h480-rw" height="60" width="60" target="_blank"></a>
 
 
-<h2 id= "#Des">Desenvolvedores</h2>
+<h2 id=Des>Desenvolvedores</h2>
 
 Feito por 
 
