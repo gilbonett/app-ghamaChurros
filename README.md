@@ -107,7 +107,40 @@ Execute a aplicação en React e Node
 
 Feito por 
 
-Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
+
+<table border="2">
+  <tr>
+    <td align="center">
+      <details>
+        <summary>
+          <b><a href="https://cursos.alura.com.br/vitrinedev/gilbonett">Vitrine.Dev</a> 🪟</b>
+          <table>
+            <tr>
+              <td align="center">
+                <a href="https://github.com/gilbonett">
+                  <img src="https://avatars.githubusercontent.com/u/101142283?s=400&u=65a54baa757bd9fd2fc3507447850d1f071002c5&v=4" width="150px;" alt="Pedro Github Photo"/>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/gilbonett/">
+                  <sub>
+                    <b>Pedro Gil Bonett</b>
+                  </sub>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </summary>
+
+| :placard: Vitrine.Dev | Pedro Gil Bonett |
+| -------------  | --- |
+| :sparkles: Nome        | **Creação de Cardapio Digital MERN Stack**
+| :label: Tecnologias | MongoDB, Express, React, Node
+| :camera: Img         | <img src="https://user-images.githubusercontent.com/101142283/191954447-7146654d-fc71-4861-82cc-63a95f8cacfd.PNG#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
+
+</details>
+</td>
+</tr>
+</table>
 
 Lenny :wave: [Entre em contato!](https://www.linkedin.com/in/lenny-marians-lucena-torres-431088198/)
 
