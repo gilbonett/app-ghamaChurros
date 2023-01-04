@@ -133,7 +133,7 @@ Feito por
 
 | :placard: Vitrine.Dev | Pedro Gil Bonett |
 | -------------  | --- |
-| :sparkles: Nome        | **Creação de Cardapio Digital MERN Stack**
+| :sparkles: Nome        | **Creação de Cardapio Digital CRUD MERN**
 | :label: Tecnologias | MongoDB, Express, React, Node
 | :camera: Img         | <img src="https://user-images.githubusercontent.com/101142283/191954447-7146654d-fc71-4861-82cc-63a95f8cacfd.PNG#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
 
